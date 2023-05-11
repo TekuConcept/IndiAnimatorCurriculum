@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+   width="28.82719mm"
+   height="16.646799mm"
+   viewBox="0 0 28.82719 16.646799"
+   version="1.1"
+   id="svg6389"
+   xmlns="http://www.w3.org/2000/svg">
+  <g
+     id="layer2"
+     transform="translate(-282.3831,2035.8453)">
+    <path
+       id="path75247"
+       style="fill:#b8d8fc;fill-opacity:1;stroke:none;stroke-width:6.61458;stroke-linecap:round"
+       d="m 296.79939,-2035.8404 a 16.648949,16.648949 0 0 0 -8.32456,2.2263 l 8.32146,14.4141 h 0.003 z"/>
+    <path
+       id="path76107"
+       style="fill:#63a9f9;fill-opacity:1;stroke:none;stroke-width:6.61458;stroke-linecap:round"
+       d="m 305.11952,-2033.611 a 16.648949,16.648949 0 0 0 -8.32239,-2.2343 l -4.6e-4,16.6437 h 0.003 z"/>
+    <path
+       id="path76109"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:6.61458;stroke-linecap:round"
+       d="m 288.47926,-2033.611 a 16.648949,16.648949 0 0 0 -6.09616,6.0903 l 14.41364,8.3222 h 0.003 z"/>
+    <path
+       id="path76111"
+       style="fill:#0a78f6;fill-opacity:1;stroke:none;stroke-width:6.61458;stroke-linecap:round"
+       d="m 311.21029,-2027.5202 a 16.648949,16.648949 0 0 0 -6.09026,-6.0962 l -8.32224,14.4136 h 0.003 z"/>
+  </g>
+</svg>

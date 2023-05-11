@@ -1,0 +1,46 @@
+
+.circle-badge {
+    background-color: white;
+    // opacity: 0.5;
+
+    width: 17.5em;
+    margin: 1.4em;
+    border-radius: 18em 18em 3em 3em;
+    text-align: center;
+
+    h2 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        justify-content: center;
+        aspect-ratio: 1 / 1;
+        text-transform: uppercase;
+        border-radius: 18em;
+        margin: 0;
+        transition: 0.1s;
+
+        &:hover { font-size: 1.2em; }
+
+        strong {
+            display: block;
+            margin-top: 0.5em;
+
+            font-size: 2.2em;
+            font-weight: 600;
+        }
+
+        span {
+            font-size: 0.78em;
+            font-weight: 200;
+            line-height: 3em;
+        }
+    }
+
+    p {
+        font-size: initial;
+        line-height: 1.2em;
+        margin: 1.5em;
+        margin-top: 1em;
+        color: black;
+    }
+}

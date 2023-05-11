@@ -1,0 +1,23 @@
+#reference {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    z-index: -10;
+
+    img {
+        width: 100%;
+    }
+}
+
+#content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+}

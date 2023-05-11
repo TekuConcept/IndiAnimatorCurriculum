@@ -1,0 +1,121 @@
+
+header {
+    position: relative;
+    width: 100%;
+    color: white;
+    // color: black;
+    padding-top: 26px;
+    margin-bottom: 5px;
+    // opacity: 0.5;
+    overflow: hidden;
+
+    // background: linear-gradient(125deg, rgb(164, 48, 166) 0%, rgb(45 14 103) 92%);
+    // background: linear-gradient(125deg, #12345e 0%, #08192a 92%);
+    background: linear-gradient(125deg, #38157c 0%, #1a082a 92%);
+    // background-color: white;
+
+    svg {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 320px;
+        bottom: -5px;
+        pointer-events: none;
+    }
+}
+
+#header-description {
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    left: -10px;
+    width: 100%;
+    padding-top: 2.6em;
+    padding-bottom: 6em;
+
+    p:first-of-type {
+        font-weight: 400;
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+
+    p:last-of-type {
+        font-weight: 200;
+        font-size: 0.7em;
+        line-height: 1em;
+        opacity: 0.35;
+
+        transition: 0.3s;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 0 1em;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: #40eaea;
+        font-weight: 400;
+
+        &:hover {
+            cursor: pointer;
+            color: #18b1c5;
+        }
+    }
+}
+
+#header-banner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5em;
+
+    // background: linear-gradient(90deg, rgba(204,22,157,1) 0%, rgba(148,6,127,1) 100%);
+    // background: linear-gradient(90deg, #6c1ee7 0%, #722650 100%);    
+    background: linear-gradient(90deg, #8f15ff 0%, #992e69 100%);
+
+    & > p {
+        padding: 0 10px;
+        margin: 0;
+    }
+
+    & > p:first-of-type {
+        text-align: right;
+        font-size: 2.7em;
+        line-height: 1.15em;
+        font-weight: 400;
+
+        position: relative;
+        top: 1.1em;
+
+        span {
+            // color: #ff8181;
+            // color: #f4f000;
+            color: #6fffd7;
+            // color: #0abae7;
+        }
+    }
+
+    & > p:last-of-type {
+        text-align: center;
+        font-size: 6.2em;
+        line-height: 1.15em;
+        font-weight: 700;
+
+        span {
+            background-image: url(./../resources/ani-backdrop.jpg);
+            // background-image: url(ani-backdrop-negative.jpg);
+            background-repeat: repeat;
+            background-clip: text;
+            background-size: 88%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-font-smoothing: antialiased;
+        }
+    }
+}
