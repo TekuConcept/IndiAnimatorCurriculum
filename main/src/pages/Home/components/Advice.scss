@@ -1,79 +1,78 @@
 
 #advice {
     position: relative;
-    width: 100%;
+    z-index: 1;
 
-    // border: 1px solid;
-    // box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+
+    background-color: #13142a;
+    background: radial-gradient(ellipse at right bottom, #313a4b 0%, #080422 90%);
+
+    box-shadow: 0 0 20px 0 #00000080;
+    border-top: 1px solid #9ba5fc;
+
+    .profile-pic {
+        .border { border-color: rgb(215 255 56); }
+        .part-a::after, .part-b::after { background-color: rgb(215 255 56); }
+    }
+
+    h2 {
+        text-align: center;
+        line-height: 1.5em;
+        font-size: 1.7em;
+        font-weight: 200;
+        margin-top: 0;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+
+            &:hover { color: rgb(10, 186, 231); }
+        }
+        
+        strong {
+            display: block;
+            font-size: 1.6em;
+            font-weight: 600;
+        }
+    }
 
     svg {
         position: absolute;
         width: 100%;
-        // z-index: -1;
+        z-index: -1;
+        opacity: 0.8;
 
-        &:first-of-type {
-            top: -17em;
-            z-index: -1;
-        }
-        &:last-of-type {
-            bottom: -15.5em;
-            z-index: 1;
-        }
+        &:first-of-type { top: -22em; }
     }
 
     article {
         display: flex;
         flex-direction: column;
         align-items: center;
-        // padding: 15em 0;
-        padding-top: 15em;
+        padding-top: 13em;
         padding-bottom: 5em;
 
-        hr {
-            margin-top: 1.6em;
-            width: 2.2em;
-            border: 7px solid #0abae7;
-        }
+        hr { opacity: 0.3; }
 
-        .advice-text {
-            padding-top: 1em;
+        .advice-text { margin-bottom: 2em; }
+        .advice-text > div {
+            vertical-align: baseline;
+            text-align: justify;
+            line-height: 1.1em;
 
-            & > div {
-                vertical-align: baseline;
-                column-count: 2;
-                column-fill: balance;
-                column-gap: 3.5em;
-                max-width: 48em;
-                line-height: 1.1em;
+            column-count: 2;
+            column-fill: balance;
+            column-gap: 3.5em;
 
-                p {
-                    display: inline-block;
-                    margin: 0.5em 0;
-                }
+            max-width: 48em;
+            padding: 2em 0;
+
+            p {
+                display: inline-block;
+                margin: 0.5em 0;
             }
         }
-    }
-
-    h2 {
-        text-align: center;
-        // font-weight: normal;
-        font-size: 2em;
-        line-height: 1.4em;
-        font-weight: 200;
-
-        a {
-            text-decoration: none;
-            color: black;
-
-            &:hover {
-                color: rgb(10, 186, 231);
-            }
-        }
-    }
-
-    strong {
-        display: block;
-        font-size: 1.35em;
-        font-weight: 600;
     }
 }

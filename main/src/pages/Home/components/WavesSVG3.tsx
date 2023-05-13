@@ -13,7 +13,7 @@ export default function WavesSVG3() {
         <path
             id="rect16360"
             style={{
-                fill: "#ffffff",
+                fill: "#FFFFFF00",
                 fillOpacity: 1,
                 stroke: "none"
             }}

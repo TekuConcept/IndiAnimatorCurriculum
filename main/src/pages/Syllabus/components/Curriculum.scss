@@ -6,20 +6,18 @@
     flex-direction: column;
     width: 100%;
 
-    // opacity: 0.5;
-    // top: 43.4em;
-
     & > h2 {
         font-weight: 400;
         font-size: 2.6em;
         text-align: center;
         line-height: 1.2em;
-        margin-bottom: 2em;
+        margin-bottom: 1em;
 
         strong {
             display: block;
             font-size: 3em;
             line-height: 0.7em;
+            margin-bottom: 0.2em;
         }
     }
 }

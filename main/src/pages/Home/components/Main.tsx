@@ -1,16 +1,11 @@
-import Overview from './Overview'
-import Advice from './Advice'
+import Preview from './Preview'
 import Instruction from './Instruction'
-import Curriculum from './Curriculum'
-import Resources from './Resources'
-import { curriculumData } from '../CurriculumData'
+import Advice from './Advice'
 
 export default function Main() {
-    return <main>
-        <Overview />
-        <Advice />
+    return <main className="home-main">
+        <Preview />
         <Instruction />
-        <Curriculum data={curriculumData} />
-        <Resources />
+        <Advice />
     </main>
 }

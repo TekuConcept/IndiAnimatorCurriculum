@@ -12,14 +12,16 @@ export default function WavesSVG5() {
             <linearGradient id="linearGradient18781">
             <stop
                 style={{
-                    stopColor: "#fad89f",
+                    // stopColor: "#fad89f",
+                    stopColor: 'rgb(205 98 255)',
                     stopOpacity: 1
                 }}
                 offset="0"
                 id="stop18777" />
             <stop
                 style={{
-                    stopColor: "#43eae9",
+                    // stopColor: "#43eae9",
+                    stopColor: 'rgb(10 186 231)',
                     stopOpacity: 1
                 }}
                 offset="1"
@@ -32,7 +34,8 @@ export default function WavesSVG5() {
             <path
                 id="rect26548"
                 style={{
-                    fill: "#f0f3ff",
+                    // fill: "#f0f3ff",
+                    fill: 'rgb(18, 18, 32)',
                     fillOpacity: 1,
                     stroke: "none"
                 }}

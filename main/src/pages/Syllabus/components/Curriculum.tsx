@@ -1,18 +1,21 @@
+import Term from "./../../../components/Term"
+import { CData } from './../../../data/CurriculumData'
 import './Curriculum.scss'
-
-import Term from "./Term"
-import { CData } from '../CurriculumData'
-
 
 export interface CurriculumProps {
     data?: CData
+    title?: React.ReactNode
 }
 
 export default function Curriculum(props: CurriculumProps) {
+    const title = props.data?.name ?
+        <>The <strong>{props.data.name}</strong> Curriculum</> :
+        <>The <strong>Curriculum</strong></>
+
     return <div className="curriculum">
-        <h2>The <strong>Curriculum</strong></h2>
+        <h2>{title}</h2>
         {
-            props.data?.map((term, i) => {
+            props.data?.terms.map((term, i) => {
                 return <Term
                     key={i}
                     theme={term.theme}

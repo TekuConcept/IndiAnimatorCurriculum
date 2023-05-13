@@ -1,15 +1,23 @@
 
 .term {
-    position: relative;
+    // position: relative;
     display: flex;
     flex-direction: column;
 
     box-sizing: border-box;
     width: 100%;
-    padding: 30px 60px;
-    padding-left: 150px;
 
-    // TODO: stylize term number
+    &-wrapper {
+        position: relative;
+        box-sizing: border-box;
+        padding: 30px 60px;
+        padding-left: 150px;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        // border: 1px dotted;
+    }
 
     &-number {
         box-sizing: border-box;

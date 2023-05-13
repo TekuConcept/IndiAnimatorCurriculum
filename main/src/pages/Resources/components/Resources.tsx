@@ -1,11 +1,11 @@
 import React from 'react'
-import './Resources.scss'
 import PlayIcon from './../resources/ico-play.svg'
 import EduIcon from './../resources/ico-edu.svg'
 import BookIcon from './../resources/ico-book.svg'
 import WebIcon from './../resources/ico-web.svg'
 import WavesSVG5 from './WavesSVG5'
 import WavesSVG6 from './WavesSVG6'
+import './Resources.scss'
 
 
 interface ResourceGroupProps {

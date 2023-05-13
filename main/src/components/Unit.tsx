@@ -8,7 +8,7 @@ import {
     CUnitRef,
     GetThemeColorsFor,
     SourceLink
-} from '../CurriculumData'
+} from '../data/CurriculumData'
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -19,7 +19,9 @@ export default function WavesSVG6() {
                 gradientTransform="translate(266.96772,-9.3467912)">
             <stop
                 style={{
-                    stopColor: "#dc6390",
+                    // stopColor: "#dc6390",
+                    // stopColor: "rgb(205 98 255)",
+                    stopColor: "rgb(133 48 173)",
                     stopOpacity: 1
                 }}
                 offset="0"
@@ -42,7 +44,9 @@ export default function WavesSVG6() {
                 gradientTransform="translate(-436.3783,8.1784207)">
             <stop
                 style={{
-                    stopColor: "#42b2b7",
+                    // stopColor: "#42b2b7",
+                    // stopColor: "rgb(10 186 231)",
+                    stopColor: "rgb(28 140 183)",
                     stopOpacity: 1
                 }}
                 offset="0"
