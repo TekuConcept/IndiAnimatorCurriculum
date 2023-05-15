@@ -7,6 +7,75 @@
     box-sizing: border-box;
     width: 100%;
 
+    .focus {
+        box-sizing: border-box;
+        font-weight: 200;
+        font-size: 1.2em;
+        // margin: 2em 0;
+        // margin-bottom: 1em;
+        margin-left: -1.5em;
+        width: 100%;
+        color: black;
+
+        h2 {
+            margin: 0;
+            // margin-left: 64px;
+            font-family: 'Montserrat';
+            font-weight: 600;
+            text-transform: uppercase;
+
+            span {
+                font-weight: 100;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    &-number {
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: "Carlito";
+        font-weight: 900;
+
+        &.side {
+            position: absolute;
+
+            font-size: 15em;
+            top: 70px;
+            left: 60px;
+            height: 1em;
+            z-index: 0;
+        }
+
+        &.inline {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            position: relative;
+            left: -3em;
+            height: 10em;
+            z-index: 0;
+ 
+            & > span {
+                position: relative;
+                font-size: 10em;
+                left: -0.1em;
+            }
+        }
+
+        & > div:first-of-type {
+            position: relative;
+            left: -30px;
+            width: 64px;
+            height: 120%;
+            box-shadow: -25px 0px 10px -20px #0000003d;
+        }
+    }
+
     &-wrapper {
         position: relative;
         box-sizing: border-box;
@@ -15,35 +84,5 @@
         width: 100%;
         max-width: 1200px;
         margin: 0 auto;
-
-        // border: 1px dotted;
-    }
-
-    &-number {
-        box-sizing: border-box;
-        // border: 1px dotted;
-
-        position: absolute;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        font-family: "Carlito";
-        font-weight: 900;
-        font-size: 15em;
-        top: 70px;
-        // left: 65px;
-        left: 60px;
-        // left: 25px;
-        height: 1em;
-        z-index: 0;
-
-        & > div {
-            position: relative;
-            // left: -35px;
-            left: -30px;
-            width: 64px;
-            height: 120%;
-            box-shadow: -25px 0px 10px -20px #0000003d;
-        }
     }
 }

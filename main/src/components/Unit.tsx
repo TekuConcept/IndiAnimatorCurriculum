@@ -36,7 +36,13 @@ function XSourceLink(props: XSourceLinkProps) {
     else if (typeof props.link === 'string')
         return <span>{props.link}</span>
     else {
-        if (props.link.url) return <a href={props.link.url}>{props.link.text}</a>
+        if (props.link.url) return <a
+            href={props.link.url}
+            target='_blank'
+            rel='noreferrer'
+        >
+            {props.link.text}
+        </a>
         else return <span>{props.link.text}</span>
     }
 }

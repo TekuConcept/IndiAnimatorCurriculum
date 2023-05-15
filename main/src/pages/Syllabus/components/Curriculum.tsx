@@ -19,6 +19,7 @@ export default function Curriculum(props: CurriculumProps) {
                 return <Term
                     key={i}
                     theme={term.theme}
+                    focus={term.focus}
                     units={term.units}
                     index={i + 1}
                 ></Term>

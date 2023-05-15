@@ -123,6 +123,7 @@ export interface CUnit {
 
 export type CTerm = {
     theme: CTheme
+    focus?: string
     units: Array<CUnit>
 }
 

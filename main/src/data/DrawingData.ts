@@ -16,13 +16,14 @@ export const drawingData: CData = {
                 title: 4,
                 brief: 3
             },
+            focus: 'Lines, Shapes, and Feeling',
             units: [
                 {
                     title: 'Figure Drawing I',
                     brief: {
                         name: {
                             text: 'Figure Drawing Fundamentals, Proko Premium',
-                            url: 'https://www.proko.com/figure-drawing-fundamentals-course'
+                            url: 'https://www.proko.com/course/figure-drawing-fundamentals'
                         }
                     },
                     references: [
@@ -30,7 +31,7 @@ export const drawingData: CData = {
                             category: 'YouTube',
                             sources: [
                                 {
-                                    text: 'Proko Figure Drawing Fundamentals',
+                                    text: 'How to Draw Gesture',
                                     url: 'https://www.youtube.com/watch?v=74HR59yFZ7Y&list=PLtG4P3lq8RHGuMuprDarMz_Y9Fbw_d2ws'
                                 },
                                 {
@@ -52,20 +53,44 @@ export const drawingData: CData = {
                     challenges: [
                         {
                             name: {
-                                text: '30-Days of Croquis French Café Gesture Sessions (Found on Vimeo)',
-                                url: 'https://vimeo.com/channels/croquiscafe'
+                                text: '30-Days of Croquis French Café Gesture Sessions',
+                                url: 'https://croquis.cafe/'
+                            }
+                        },
+                        {
+                            name: {
+                                text: 'or 12+ hours Friday Evening Figure Drawing',
+                                url: 'https://www.youtube.com/watch?v=NujN1ZfhwDc&list=PLVK1154-DZLrCyXFSobZ2SVisLGmmNapd'
                             }
                         }
                     ],
-                    notes: 'Do the gesture challenge concurrently with the Figure Drawing course. In the early stages, learning the flow of gesture is the most important thing - it prevents stiffness in your drawings.'
+                    notes: 'Learn to draw the propotions of the human body from reference or imagination along with gesture drawing. In the early stages, learning the flow of gesture is the most important detail - it prevents stiffness in one\'s drawings.'
                 },
                 {
                     title: 'Perspective I',
                     brief: {
                         name: {
-                            text: 'Drawabox.com Lessons 0-3',
+                            text: 'Drawabox.com',
                             url: 'https://drawabox.com/'
-                        }
+                        },
+                        sub: [
+                            {
+                                text: 'Getting Started',
+                                url: 'https://drawabox.com/lesson/0'
+                            },
+                            {
+                                text: 'Lines, Ellipses, & Boxes',
+                                url: 'https://drawabox.com/lesson/1'
+                            },
+                            {
+                                text: 'Forms, Dissections, & Intersections',
+                                url: 'https://drawabox.com/lesson/2'
+                            },
+                            {
+                                text: 'Applying Construction to Plants',
+                                url: 'https://drawabox.com/lesson/3'
+                            }
+                        ]
                     },
                     references: [
                         {
@@ -109,7 +134,7 @@ export const drawingData: CData = {
                             ]
                         }
                     ],
-                    notes: 'Drawabox is a dense course and important for your foundation in draftsmanship. If anything, extend the length of this unit and cut the next one short. The 250 Box Challenge follows Lesson 1, going in to Lesson 2.'
+                    notes: 'Learn about convergence lines, vanishing points, the horizon, 1-point perspectives, and 2-point perspectives. Drawabox is a dense course and important for one\'s foundation in draftsmanship. If anything, extend the length of this unit and cut the next unit short. The 250 Box Challenge follows Lesson 1, going in to Lesson 2.'
                 },
                 {
                     title: 'Composition & Storytelling I',
@@ -169,7 +194,61 @@ export const drawingData: CData = {
                             }
                         }
                     ],
-                    notes: 'SVSLearn is available through a monthly subscription. Sycra\'s video on "Iterative Drawing" is a great one to learn how to challenge yourself to create variations - whether they\'re good or bad.'
+                    notes: 'The more you know, the more your see - learn how we see, how we perceive and store visual information. SVSLearn is available through a monthly subscription. Sycra\'s video on "Iterative Drawing" is a great one to learn how to challenge yourself to create variations - whether they\'re great or not.'
+                },
+                {
+                    title: 'Gesture By Example',
+                    brief: {
+                        name: {
+                            text: 'Cartoon Gesture Basics, The Drawing Database',
+                            url: 'https://youtu.be/u4VM6jWLkxE'
+                        }
+                    },
+                    references: [
+                        {
+                            category: 'YouTube',
+                            sources: [
+                                {
+                                    text: 'How to design an Imaginary Animal Character',
+                                    url: 'https://youtu.be/Ehas2j5j6LM'
+                                },
+                                {
+                                    text: 'How to Draw Cartoons',
+                                    url: 'https://www.youtube.com/watch?v=OuAlfHiCEgQ&list=PLx2_B35JLXILZZUb7kllvH9unNO9tNPDr'
+                                }
+                            ]
+                        },
+                        {
+                            category: 'Online',
+                            sources: [
+                                {
+                                    text: 'Gesture Drawing with Aaron Blaise',
+                                    url: 'https://creatureartteacher.com/product/gesture-drawing-course-tutorial/'
+                                },
+                                {
+                                    text: 'Deja View, Andreas Deja',
+                                    url: 'http://andreasdeja.blogspot.com/2013/'
+                                }
+                            ]
+                        },
+                        {
+                            category: 'Books',
+                            sources: [
+                                {
+                                    text: '"Gesture Drawing for Animation" by Walt Stanchfield and Leo Brodie',
+                                    url: 'https://www.amazon.com/dp/B08KQ58SD3'
+                                }
+                            ]
+                        }
+                    ],
+                    challenges: [
+                        {
+                            name: {
+                                text: 'Thumbnail 50 or more Favorite Movie Scene Characters'
+                            }
+                        }
+                    ],
+                    notes: 'Studying how other artists used gesture to capture their creations will help one gain a better understanding of gesture in animation. Select snapshots from several favorite animated feature films and recreate the images using gesture.'
                 }
             ]
         },
@@ -185,10 +264,11 @@ export const drawingData: CData = {
                 challengeHeading: { back: 6 },
                 brief: 3,
             },
+            focus: 'Studying the Head, Color Theory',
             units: [
                 {
                     title: 'Anatomy I',
-                    subtitle: 'The Head',
+                    subtitle: 'The Head & Face',
                     brief: {
                         name: {
                             text: 'Understanding & Painting the Head, Marco Bucci',
@@ -235,15 +315,33 @@ export const drawingData: CData = {
                             }
                         }
                     ],
-                    notes: 'If you have access to physical/traditional painting, you could consider it here in the second half of Marco Bucci\'s course. Otherwise, continue to focus on pencil. Andrew Loomis, Frank Reilly, and Steve Huston are highly recommended to learn once you become a little more comfortable with head construction.'
+                    notes: 'Learn to draw the human head in this complete look at the anatomy of the face. Study and compare how animators represent human faces in their works.'
                 },
                 {
                     title: 'Perspective II',
                     brief: {
                         name: {
-                            text: 'Drawabox.com Lessons 4-7',
+                            text: 'Drawabox.com',
                             url: 'https://drawabox.com/'
-                        }
+                        },
+                        sub: [
+                            {
+                                text: 'Construction for Insects',
+                                url: 'https://drawabox.com/lesson/4'
+                            },
+                            {
+                                text: 'Construction for Animals',
+                                url: 'https://drawabox.com/lesson/5'
+                            },
+                            {
+                                text: 'Construction for Objects',
+                                url: 'https://drawabox.com/lesson/6'
+                            },
+                            {
+                                text: 'Construction for Vehicles',
+                                url: 'https://drawabox.com/lesson/7'
+                            }
+                        ]
                     },
                     references: [
                         {
@@ -286,8 +384,123 @@ export const drawingData: CData = {
                             }
                         }
                     ],
-                    notes: 'For Drawabox\'s assignments, do not focus on finished drawings. The main priority is to exercise your understanding of form and construction. Challenge yourself to begin rotating forms.'
+                    notes: 'Learn about 3-point, 4-point, and 5-point perspective as well as atmospheric perspective. For Drawabox\'s assignments, do not focus on finished drawings. The main priority is to exercise one\'s understanding of form and construction. Challenge yourself to begin rotating forms.'
                 },
+                {
+                    title: 'Color & Light I',
+                    brief: {
+                        name: {
+                            text: '"How to Render", Scott Robertson',
+                            url: 'https://www.amazon.com/dp/1933492961'
+                        }
+                    },
+                    references: [
+                        {
+                            category: 'YouTube',
+                            sources: [
+                                {
+                                    text: 'Marco Bucci'
+                                },
+                                {
+                                    text: '- Light & Shadow: 10 Minutes to Better Painting',
+                                    url: 'https://www.youtube.com/watch?v=xcCJ2CU-bFw&t=68s'
+                                },
+                                {
+                                    text: '- Ambient Occlusion 1 & 2',
+                                    url: 'https://www.youtube.com/watch?v=7fLV5ezO64w'
+                                },
+                                {
+                                    text: 'Proko: Shading Light and Form',
+                                    url: 'https://www.youtube.com/watch?v=V3WmrWUEIJo'
+                                }
+                            ]
+                        },
+                        {
+                            category: 'Schoolism',
+                            sources: [
+                                {
+                                    text: 'Fundamentals of Lighting, Sam Nielson',
+                                    url: 'https://schoolism.com/courses/concept-art/fundamentals-of-lighting-sam-nielson'
+                                }
+                            ]
+                        }
+                    ],
+                    challenges: [
+                        {
+                            name: {
+                                text: '50 Still-Life Lighting Studies'
+                            },
+                            sub: [
+                                {
+                                    text: 'Examin lighting in drastically different setups'
+                                },
+                                {
+                                    text: 'Use a lamp and change the position over the subject'
+                                }
+                            ]
+                        }
+                    ],
+                    notes: 'Learn the basics of color theory, harmony, and how to create good color palettes. Try thumbnailing instead of detailed drawings. You learn more through repeated attempts!'
+                },
+                {
+                    title: 'Animals I',
+                    subtitle: 'The Head',
+                    brief: {
+                        name: {
+                            text: 'Drawabox: Drawing Animal Heads',
+                            url: 'https://www.youtube.com/watch?v=rMvT04OKBMQ'
+                        }
+                    },
+                    references: [
+                        {
+                            category: 'Books',
+                            sources: [
+                                {
+                                    text: '"The Art of Animal Drawing", Ken Hulgren',
+                                    url: 'https://www.amazon.com/dp/1621389820'
+                                }
+                            ]
+                        }
+                    ],
+                    challenges: [
+                        {
+                            name: {
+                                text: '100 Animal Heads'
+                            },
+                            sub: [
+                                {
+                                    text: 'Birds'
+                                },
+                                {
+                                    text: 'Sea-Creatures'
+                                },
+                                {
+                                    text: 'Insects'
+                                },
+                                {
+                                    text: 'Any combination of Land-Animals: cats, dogs, bears, foxes, rhinos, etc'
+                                }
+                            ]
+                        }
+                    ],
+                    notes: 'Learn the similarities and differences between the human head and the heads of many other creatures, big and small, far and wide. Study and compare how animators represent animal faces in their works.'
+                }
+            ]
+        },
+        {
+            theme: {
+                pallet: [ "#000000", "#FFFFFF", "#fff2fb", "#55bbae", "#a4927e", "#ffeef9" ],
+                general: { text: 0, back: 1 },
+                accent: 2,
+                term: 3,
+                arrow: { text: 3, back: 4 },
+                note: { text: 1, back: 4 },
+                challenge: { back: 5 },
+                challengeHeading: { text: 1, back: 4 },
+                brief: 3
+            },
+            focus: 'Studying the Body, Color Theory (Continued)',
+            units: [
                 {
                     title: 'Anatomy II',
                     subtitle: 'The Torso',
@@ -352,23 +565,8 @@ export const drawingData: CData = {
                             ]
                         }
                     ],
-                    notes: 'After going through anatomy, look up some FORCE gesture videos on YouTube (Proko has good interviews). Learn how to exaggerate gesture beyond your reference pose. This is helpful to stretch drawing from your imagination and fight stiff drawings.'
-                }
-            ]
-        },
-        {
-            theme: {
-                pallet: [ "#000000", "#FFFFFF", "#fff2fb", "#55bbae", "#a4927e", "#ffeef9" ],
-                general: { text: 0, back: 1 },
-                accent: 2,
-                term: 3,
-                arrow: { text: 3, back: 4 },
-                note: { text: 1, back: 4 },
-                challenge: { back: 5 },
-                challengeHeading: { text: 1, back: 4 },
-                brief: 3
-            },
-            units: [
+                    notes: 'Learn to draw a simplified skeleton and the human torso along with all its muscles. After going through anatomy, look up some FORCE gesture videos on YouTube. Learn how to exaggerate gesture beyond one\'s reference pose. This is helpful to stretch one\'s imagination and fight stiff drawings.'
+                },
                 {
                     title: 'Perspective III',
                     brief: {
@@ -417,8 +615,166 @@ export const drawingData: CData = {
                             }
                         }
                     ],
-                    notes: '"How to Draw" is the artist\'s perspective Bible. It\'s especially good if you want to draw inorganic objects but still important regardless! moderndayjames covers some great topics here - start rotating forms from imagination!'
+                    notes: '"How to Draw" is the artist\'s perspective Bible. It\'s an especially good resource for drawing inorganic objects! moderndayjames covers some great topics here - start rotating forms from imagination!'
                 },
+                {
+                    title: 'Color & Light II',
+                    brief: {
+                        name: {
+                            text: '"Color and Light", James Gurney',
+                            url: 'https://www.amazon.com/dp/0740797719'
+                        }
+                    },
+                    references: [
+                        {
+                            category: 'YouTube',
+                            sources: [
+                                {
+                                    text: 'Blender Guru'
+                                },
+                                {
+                                    text: '- Understanding Color',
+                                    url: 'https://www.youtube.com/watch?v=Qj1FK8n7WgY'
+                                },
+                                {
+                                    text: '- Lighting Mastery Series',
+                                    url: 'https://www.youtube.com/watch?v=cg1K_ZWB0Uw'
+                                },
+                                {
+                                    text: 'Sycra: How to pick colours that work',
+                                    url: 'https://www.youtube.com/watch?v=9kQllLy_X4I'
+                                },
+                                {
+                                    text: 'Coloring w/Kurt: Where do highlights go?',
+                                    url: 'https://www.youtube.com/watch?v=TOj5QLZ8Yxg'
+                                }
+                            ]
+                        },
+                        {
+                            category: 'Books',
+                            sources: [
+                                {
+                                    text: '"Manga Character Color Scheme", Teruko Sakurai',
+                                    url: 'https://www.amazon.co.jp/dp/B0976X236R/'
+                                }
+                            ]
+                        },
+                        {
+                            category: 'Schoolism',
+                            sources: [
+                                {
+                                    text: 'Designing w/Color & Light, Nathan Fowkes',
+                                    url: 'https://schoolism.com/courses/concept-art/designing-with-color-and-light-nathan-fowkes'
+                                },
+                                {
+                                    text: 'Painting w/Light & Color, Tonko House & Cody Gramstead',
+                                    url: 'https://schoolism.com/courses/painting/painting-with-light-and-color-by-tonko-house-cody-gramstad'
+                                }
+                            ]
+                        }
+                    ],
+                    challenges: [
+                        {
+                            name: {
+                                text: '150 Color Replication Studies'
+                            },
+                            sub: [
+                                {
+                                    text: 'Environments'
+                                },
+                                {
+                                    text: 'Character Designs'
+                                },
+                                {
+                                    text: 'Movie Frames'
+                                }
+                            ]
+                        },
+                        {
+                            name: {
+                                text: '50 Color Variation Studies'
+                            },
+                            sub: [
+                                {
+                                    text: '50 subjects, drawn 3x with different color palettes'
+                                }
+                            ]
+                        }
+                    ],
+                    notes: 'Learn about color psychology, solor temperature, the importance of gray, and how to light up your illustrations with a 3-point lighting setup. James Gurney\'s book is the artist\'s Bible on color and light. Challenges should focus on thumbnails - exercise picking colors, schemes, and unique combinations.'
+                },
+                {
+                    title: 'Animals II',
+                    subtitle: 'The Torso',
+                    brief: {
+                        name: {
+                            text: 'FORCE: Animal Drawing, Mike Mattesi',
+                            url: 'https://www.amazon.com/dp/0367637073'
+                        }
+                    },
+                    references: [
+                        {
+                            sources: [
+                                {
+                                    text: 'Aaron Blaise (pick one)'
+                                },
+                                {
+                                    text: '- Big Cats',
+                                    url: 'https://creatureartteacher.com/product/how-to-draw-animals-course-big-cats/'
+                                },
+                                {
+                                    text: '- Bears',
+                                    url: 'https://creatureartteacher.com/product/how-to-draw-bears-aaron-blaise/'
+                                },
+                                {
+                                    text: '- Horses',
+                                    url: 'https://creatureartteacher.com/product/how-to-draw-horses/'
+                                },
+                                {
+                                    text: '- Wolves, Coyotes, and Foxes',
+                                    url: 'https://creatureartteacher.com/product/how-to-draw-wolves-coyotes-foxes/'
+                                }
+                            ]
+                        },
+                        {
+                            sources: [
+                                {
+                                    text: 'Animal Anatomy Bundle, moderndayjames',
+                                    url: 'https://moderndayjames.gumroad.com/l/LVPZm'
+                                }
+                            ]
+                        }
+                    ],
+                    challenges: [
+                        {
+                            name: {
+                                text: '100 Gestures of Animals'
+                            },
+                            sub: [
+                                {
+                                    text: 'Various animal types: aquatic, flying, insect, land, etc'
+                                }
+                            ]
+                        }
+                    ],
+                    notes: 'Learn the similarities and differences between the human body and the bodies of various other creatures. Study and compare how animators represent animals in their works. Aaron Blaise has great character design tips. Pick your favorite animal and follow one of his courses!'
+                }
+            ]
+        },
+        {
+            theme: {
+                pallet: [ "#FFFFFF", "#544747", "#2e282a", "#f68a63", "#ac8678", "#000000", "#52b0af" ],
+                general: { text: 0, back: 1 },
+                accent: 2,
+                term: 3,
+                arrow: { text: 3, back: 0 },
+                note: { back: 4 },
+                challenge: { text: 5, back: 0 },
+                challengeHeading: { back: 6 },
+                brief: 3
+            },
+            focus: 'Studying the Appendages, Machinery',
+            units: [
                 {
                     title: 'Anatomy III',
                     subtitle: 'The Arms',
@@ -473,148 +829,7 @@ export const drawingData: CData = {
                             }
                         }
                     ],
-                    notes: 'I think Challenged are especially important in this unit. Most artists will agree that hands and drawing people from imagination are difficult. It\'s important to face your weaknesses head on.'
-                },
-                {
-                    title: 'Clothed Figure Drawing',
-                    brief: {
-                        name: {
-                            text: 'Clothing & Drapery w/Glenn Vilppu, New Master\'s Academy',
-                            url: 'https://www.nma.art/videolessons/how-to-draw-clothing-and-drapery/'
-                        }
-                    },
-                    references: [
-                        {
-                            category: 'YouTube',
-                            sources: [
-                                {
-                                    text: 'moderndayjames'
-                                },
-                                {
-                                    text: '- Character Sketching I: Cloth & Drapery',
-                                    url: 'https://www.youtube.com/watch?v=S1eR1rcPlHc'
-                                },
-                                {
-                                    text: '- Cloth & Drapery II: Movement in Fabric',
-                                    url: 'https://www.youtube.com/watch?v=Wz7SdRoMhT4'
-                                },
-                                {
-                                    text: 'Sinix: Clothing Folds and You',
-                                    url: 'https://www.youtube.com/watch?v=vIO4ODhm0tc'
-                                },
-                                {
-                                    text: 'Marc Brunet: How to Paint Folds',
-                                    url: 'https://www.youtube.com/watch?v=MHRSPNkGxQo'
-                                }
-                            ]
-                        },
-                        {
-                            sources: [
-                                {
-                                    text: 'Cubebrush Artschool (w/Brushboost Sub)'
-                                },
-                                {
-                                    text: '- Term 3, Clothed Figure Drawing',
-                                    url: 'https://cubebrush.co/mb/products/mmfwyq/art-school'
-                                }
-                            ]
-                        }
-                    ],
-                    challenges: [
-                        {
-                            name: {
-                                text: '30 Day Clothed Figure Gesture Challenge'
-                            }
-                        },
-                        {
-                            name: {
-                                text: '20-30 Minutes'
-                            },
-                            sub: [
-                                {
-                                    text: '(5) 1-Minute Sketches'
-                                },
-                                {
-                                    text: '(5) 2-Minute Sketches'
-                                },
-                                {
-                                    text: '(1-3) 5-Minute or 10-Minute Sketches'
-                                }
-                            ]
-                        }
-                    ],
-                    notes: 'Try all kinds of fabrics. Different weights all fold differently. Satin is reflective and light - it creases everywhere. Denim is matte and heavy - the folds are deeper and less frequent. You can get access to Cubebrush ARTSchool through its monthly subscription, Brushboost.'
-                }
-            ]
-        },
-        {
-            theme: {
-                pallet: [ "#FFFFFF", "#544747", "#2e282a", "#f68a63", "#ac8678", "#000000", "#52b0af" ],
-                general: { text: 0, back: 1 },
-                accent: 2,
-                term: 3,
-                arrow: { text: 3, back: 0 },
-                note: { back: 4 },
-                challenge: { text: 5, back: 0 },
-                challengeHeading: { back: 6 },
-                brief: 3
-            },
-            units: [
-                {
-                    title: 'Color & Light I',
-                    brief: {
-                        name: {
-                            text: '"How to Render", Scott Robertson',
-                            url: 'https://www.amazon.com/dp/1933492961'
-                        }
-                    },
-                    references: [
-                        {
-                            category: 'YouTube',
-                            sources: [
-                                {
-                                    text: 'Marco Bucci'
-                                },
-                                {
-                                    text: '- Light & Shadow: 10 Minutes to Better Painting',
-                                    url: 'https://www.youtube.com/watch?v=xcCJ2CU-bFw&t=68s'
-                                },
-                                {
-                                    text: '- Ambient Occlusion 1 & 2',
-                                    url: 'https://www.youtube.com/watch?v=7fLV5ezO64w'
-                                },
-                                {
-                                    text: 'Proko: Shading Light and Form',
-                                    url: 'https://www.youtube.com/watch?v=V3WmrWUEIJo'
-                                }
-                            ]
-                        },
-                        {
-                            category: 'Schoolism',
-                            sources: [
-                                {
-                                    text: 'Fundamentals of Lighting, Sam Nielson',
-                                    url: 'https://www.schoolism.com/school.php?id=3'
-                                }
-                            ]
-                        }
-                    ],
-                    challenges: [
-                        {
-                            name: {
-                                text: '50 Still-Life Lighting Studies'
-                            },
-                            sub: [
-                                {
-                                    text: 'Examin lighting in drastically different setups'
-                                },
-                                {
-                                    text: 'Use a lamp and change the position over the subject'
-                                }
-                            ]
-                        }
-                    ],
-                    notes: 'Learning the science behind light is most important here. When studying light, focus primarily on the three main average values of the scene and go more granular from there. Try thumbnailing instead of detailed drawings. You learn more through repeated attempts!'
+                    notes: 'Learn the anatomy of the human arms and hands, and how to draw them in any angle. The challenges are especially important in this unit. Most artists will agree that hands are difficult. It\'s important to face weaknesses head on.'
                 },
                 {
                     title: 'Perspective IV',
@@ -670,7 +885,7 @@ export const drawingData: CData = {
                             sources: [
                                 {
                                     text: 'Term 6, Mech Design',
-                                    url: 'https://cubebrush.co/mb/products/mmfwyq/art-school'
+                                    url: 'https://cubebrush.co/mb/products/1aqgnq/art-school-term-6?ref=marc'
                                 }
                             ]
                         }
@@ -687,7 +902,7 @@ export const drawingData: CData = {
                             }
                         }
                     ],
-                    notes: 'This is a key unit. Familiarize yourself with the techniques James teaches in these videos. Framed Perspective is good for learning how to apply perspective for setting a scene.'
+                    notes: 'This is a key unit. Familiarize yourself with the techniques James teaches in these videos. Framed Perspective is good for learning how to set a scene.'
                 },
                 {
                     title: 'Anatomy IV',
@@ -748,7 +963,56 @@ export const drawingData: CData = {
                             ]
                         }
                     ],
-                    notes: 'The Challenges here are both important. Feet are weird and require repeated study. There\'s also not enough material out there that encourages drawing characters together - focus on them making physical contact and doing actions together - kissing, hugging, picking things up, fighting, etc.'
+                    notes: 'Learn the anatomy of the human legs and feet, and how to draw them in any angle. The Challenges here are also important. In addition, try drawing two or more characters interacting with each other - picking things up, fighting, having tea, etc.'
+                },
+                {
+                    title: 'Animals III',
+                    subtitle: 'Legs, Tails, & Wings',
+                    brief: {
+                        name: {
+                            text: 'Animal Anatomy - Construction & Basic Anatomy',
+                            url: 'https://cubebrush.co/foundationartgroup/products/pzhhbw/animal-anatomy-construction-basic-anatomy?q=animals'
+                        }
+                    },
+                    references: [
+                        {
+                            category: 'YouTube',
+                            sources: [
+                                {
+                                    text: 'How to Draw Animal Legs, Jazza',
+                                    url: 'https://youtu.be/mIGzhfFRZ7c'
+                                }
+                            ]
+                        },
+                        {
+                            sources: [
+                                {
+                                    text: 'The Art of Studying: Animals, Charles Lin',
+                                    url: 'https://foundation-patreon.gumroad.com/l/wGDIh'
+                                },
+                                {
+                                    text: 'Draw Animal Limbs',
+                                    url: 'https://www.joshuanava.biz/life/an-teco.html'
+                                }
+                            ]
+                        }
+                    ],
+                    challenges: [
+                        {
+                            name: {
+                                text: '100 gestures of Animals & their Fore Legs, Hind Legs, Tails, Wings, etc.'
+                            },
+                            sub: [
+                                {
+                                    text: 'Study a variety of animals - those in the air, sea, and land'
+                                },
+                                {
+                                    text: 'Explore a variety of insects'
+                                }
+                            ]
+                        }
+                    ],
+                    notes: 'Learn the similarities and differences between human arms and legs and the appendages of various other creatures. Study and compare how animators represent animals in their works. Espectially observe the anatomy of wings, fins, and tails.'
                 }
             ]
         },
@@ -761,48 +1025,52 @@ export const drawingData: CData = {
                 arrow: { text: 3, back: 0 },
                 note: { text: 1, back: 4 },
                 challenge: { text: 0, back: 5 },
-                challengeHeading: { text: 0, back: 4 },
+                challengeHeading: { text: 1, back: 4 },
                 title: 0,
                 brief: 3
             },
+            focus: 'Original Characters, Vehicles',
             units: [
                 {
-                    title: 'Intro To Animals',
+                    title: 'Character Design',
                     brief: {
                         name: {
-                            text: 'FORCE: Animal Drawing, Mike Mattesi',
-                            url: 'https://www.amazon.com/dp/0367637073'
+                            text: 'Character Design w/Aaron Blaise',
+                            url: 'https://creatureartteacher.com/product/character-design-course-aaron-blaise/'
                         }
                     },
                     references: [
                         {
+                            category: 'YouTube',
                             sources: [
                                 {
-                                    text: 'Aaron Blaise (pick one)'
+                                    text: 'Marco Bucci: Character Design Mini Series',
+                                    url: 'https://www.youtube.com/watch?v=gI62rHNtg2w'
                                 },
                                 {
-                                    text: '- Big Cats',
-                                    url: 'https://creatureartteacher.com/product/how-to-draw-animals-course-big-cats/'
-                                },
-                                {
-                                    text: '- Bears',
-                                    url: 'https://creatureartteacher.com/product/how-to-draw-bears-aaron-blaise/'
-                                },
-                                {
-                                    text: '- Horses',
-                                    url: 'https://creatureartteacher.com/product/how-to-draw-horses/'
-                                },
-                                {
-                                    text: '- Wolves, Coyotes, and Foxes',
-                                    url: 'https://creatureartteacher.com/product/how-to-draw-wolves-coyotes-foxes/'
+                                    text: 'Sinix: Anatomy Quick Tips',
+                                    url: 'https://www.youtube.com/watch?v=IVbqoy_JEV0&list=PLflflDShjUKH4EfZyf0vuKEuqeqvlV0Qd'
                                 }
                             ]
                         },
                         {
+                            category: 'Schoolism',
                             sources: [
                                 {
-                                    text: 'Animal Anatomy Bundle, moderndayjames',
-                                    url: 'https://gumroad.com/moderndayjames?sort=page_layout'
+                                    text: 'Gesture Drawing, Alex Woo',
+                                    url: 'https://schoolism.com/courses/drawing/gesture-drawing-alex-woo'
+                                },
+                                {
+                                    text: 'Fundamentals of Expressive Character Design, Wouter Tulp',
+                                    url: 'https://schoolism.com/courses/concept-art/fundamentals-of-expressive-character-design-wouter-tulp'
+                                },
+                                {
+                                    text: 'Expressive Characters, Wouter Tulp',
+                                    url: 'https://schoolism.com/courses/concept-art/expressive-characters-wouter-tulp'
+                                },
+                                {
+                                    text: 'Expressive Characters Workout, Wouter Tulp',
+                                    url: 'https://schoolism.com/courses/concept-art/expressive-characters-workout-wouter-tulp'
                                 }
                             ]
                         }
@@ -810,16 +1078,21 @@ export const drawingData: CData = {
                     challenges: [
                         {
                             name: {
-                                text: '30-Day Gesture Sessions of Animals'
+                                text: 'moderndayjames\' 100 Expression Challenge'
+                            }
+                        },
+                        {
+                            name: {
+                                text: '50 Character Design Variation Studies'
                             },
                             sub: [
                                 {
-                                    text: 'Change animal type each week: 4-legged, aquatic, flying, big, small, reptilian, etc'
+                                    text: '50 subjects, 3 variations each'
                                 }
                             ]
                         }
                     ],
-                    notes: 'You\'ll have had some animal drawing from Drawabox already. Try moderndayjames\' Gumroad bundle if you want to pursue more of a perspective route. Otherwise, the focus is on the gesture of animals. Aaron Blaise is an absolute pro on this. He has great character design tips. Pick your favorite animal and follow one of his courses!'
+                    notes: 'Learn how to create compelling character designs, from idea, sketch, to final design, and see how it\'s done. Try silhouetting for character design (featured in Marco Bucci\'s series) - it\'s a good way to stretch one\'s creative muscles.'
                 },
                 {
                     title: 'Perspective V',
@@ -868,14 +1141,14 @@ export const drawingData: CData = {
                             }
                         }
                     ],
-                    notes: 'You have two options here: Focus on characters in perspective or inorganic subjects (vehicles). Pick the one you prefer as the unit\'s primary focus.'
+                    notes: 'There are two options here: Focus on characters in perspective or inorganic subjects (vehicles). Pick the one prefered as this unit\'s primary focus while familiarizing yourself with the other.'
                 },
                 {
-                    title: 'Color & Light II',
+                    title: 'Clothed Figure Drawing',
                     brief: {
                         name: {
-                            text: '"Color and Light", James Gurney',
-                            url: 'https://www.amazon.com/dp/0740797719'
+                            text: 'Clothing & Drapery w/Glenn Vilppu, New Master\'s Academy',
+                            url: 'https://www.nma.art/videolessons/how-to-draw-clothing-and-drapery/'
                         }
                     },
                     references: [
@@ -883,36 +1156,34 @@ export const drawingData: CData = {
                             category: 'YouTube',
                             sources: [
                                 {
-                                    text: 'Blender Guru'
+                                    text: 'moderndayjames'
                                 },
                                 {
-                                    text: '- Understanding Color',
-                                    url: 'https://www.youtube.com/watch?v=Qj1FK8n7WgY'
+                                    text: '- Character Sketching I: Cloth & Drapery',
+                                    url: 'https://www.youtube.com/watch?v=S1eR1rcPlHc'
                                 },
                                 {
-                                    text: '- Lighting Mastery Series',
-                                    url: 'https://www.youtube.com/watch?v=cg1K_ZWB0Uw'
+                                    text: '- Cloth & Drapery II: Movement in Fabric',
+                                    url: 'https://www.youtube.com/watch?v=Wz7SdRoMhT4'
                                 },
                                 {
-                                    text: 'Sycra: How to pick colours that work',
-                                    url: 'https://www.youtube.com/watch?v=9kQllLy_X4I'
+                                    text: 'Sinix: Clothing Folds and You',
+                                    url: 'https://www.youtube.com/watch?v=vIO4ODhm0tc'
                                 },
                                 {
-                                    text: 'Coloring w/Kurt: Where do highlights go?',
-                                    url: 'https://www.youtube.com/watch?v=TOj5QLZ8Yxg'
+                                    text: 'Marc Brunet: How to Paint Folds',
+                                    url: 'https://www.youtube.com/watch?v=MHRSPNkGxQo'
                                 }
                             ]
                         },
                         {
-                            category: 'Schoolism',
                             sources: [
                                 {
-                                    text: 'Designing w/Color & Light, Nathan Fowkes',
-                                    url: 'https://www.schoolism.com/school.php?id=22'
+                                    text: 'Cubebrush Artschool (w/Brushboost Sub)'
                                 },
                                 {
-                                    text: 'Painting w/Light & Color, Tonko House & Cody Gramstead',
-                                    url: 'https://www.schoolism.com/school.php?id=41'
+                                    text: '- Term 3, Clothed Figure Drawing',
+                                    url: 'https://cubebrush.co/mb/products/vfdbq/art-school-term-3?ref=marc'
                                 }
                             ]
                         }
@@ -920,113 +1191,34 @@ export const drawingData: CData = {
                     challenges: [
                         {
                             name: {
-                                text: '150 Color Replication Studies'
-                            },
-                            sub: [
-                                {
-                                    text: 'Environments'
-                                },
-                                {
-                                    text: 'Character Designs'
-                                },
-                                {
-                                    text: 'Movie Frames'
-                                }
-                            ]
-                        },
-                        {
-                            name: {
-                                text: '50 Color Variation Studies'
-                            },
-                            sub: [
-                                {
-                                    text: '50 subjects, drawn 3x with different color palettes'
-                                }
-                            ]
-                        }
-                    ],
-                    notes: 'James Gurney\'s book is the artist\'s Bible on color and light. The YouTube recommendation here are good too. For the challenges, do mostly thumbnails - exercise picking colors accurately, different kinds of color schemes, and picking unique colors.'
-                }
-            ]
-        },
-        {
-            theme: {
-                pallet: [ "#efefef", "#44363a", "#302125", "#dd5b7f", "#ac788b", "#d89528" ],
-                general: { text: 0, back: 1 },
-                accent: 2,
-                term: 3,
-                arrow: { text: 3, back: 0 },
-                note: { text: 0, back: 4 },
-                challenge: { text: 1, back: 0 },
-                challengeHeading: { text: 1, back: 5 },
-                brief: 3
-            },
-            units: [
-                {
-                    title: 'Character Design',
-                    brief: {
-                        name: {
-                            text: 'Character Design w/Aaron Blaise',
-                            url: 'https://creatureartteacher.com/product/character-design-course-aaron-blaise/'
-                        }
-                    },
-                    references: [
-                        {
-                            category: 'YouTube',
-                            sources: [
-                                {
-                                    text: 'Marco Bucci: Character Design Mini Series',
-                                    url: 'https://www.youtube.com/watch?v=gI62rHNtg2w'
-                                },
-                                {
-                                    text: 'Sinix: Anatomy Quick Tips',
-                                    url: 'https://www.youtube.com/watch?v=IVbqoy_JEV0&list=PLflflDShjUKH4EfZyf0vuKEuqeqvlV0Qd'
-                                }
-                            ]
-                        },
-                        {
-                            category: 'Schoolism',
-                            sources: [
-                                {
-                                    text: 'Gesture Drawing, Alex Woo',
-                                    url: 'https://www.schoolism.com/school.php?id=14'
-                                },
-                                {
-                                    text: 'Fundamentals of Character Design, Stephen Silver',
-                                    url: 'https://www.schoolism.com/school.php?id=10'
-                                },
-                                {
-                                    text: 'Expressive Characters, Wouter Tulp',
-                                    url: 'https://www.schoolism.com/school.php?id=39'
-                                }
-                            ]
-                        }
-                    ],
-                    challenges: [
-                        {
-                            name: {
-                                text: 'moderndayjames\' 100 Expression Challenge'
+                                text: '30 Day Clothed Figure Gesture Challenge'
                             }
                         },
                         {
                             name: {
-                                text: '50 Character Design Variation Studies'
+                                text: '20-30 Minutes'
                             },
                             sub: [
                                 {
-                                    text: '50 subjects, 3 variations each'
+                                    text: '(5) 1-Minute Sketches'
+                                },
+                                {
+                                    text: '(5) 2-Minute Sketches'
+                                },
+                                {
+                                    text: '(1-3) 5-Minute or 10-Minute Sketches'
                                 }
                             ]
                         }
                     ],
-                    notes: 'Both Challenges are greate here. If you haven\'t seen the practice before, look up silhouetting for character design (featured in Marco Bucci\'s series) - it\'s a good way to stretch your creative muscles.'
+                    notes: 'Learn to draw realistic fabric folds based on logic and observation of clothed human models. Different weights all fold differently. Satin is reflective and light - it creases everywhere. Denim is matte and heavy - the folds are deeper and less frequent.'
                 },
                 {
                     title: 'Composition & Storytelling II',
                     brief: {
                         name: {
-                            text: 'Pictorial Composition w/Nathan Fowkes, Schoolism',
-                            url: 'https://www.brendanmeachen.com/soloartist'
+                            text: 'Pictorial Composition, Nathan Fowkes',
+                            url: 'https://schoolism.com/courses/concept-art/pictorial-composition-nathan-fowkes'
                         }
                     },
                     references: [
@@ -1055,11 +1247,11 @@ export const drawingData: CData = {
                             sources: [
                                 {
                                     text: 'Story-Driven Illustrations, Djamilia Knopf',
-                                    url: 'https://www.schoolism.com/school.php?id=48'
+                                    url: 'https://schoolism.com/courses/concept-art/story-driven-illustrations-djamila-knopf'
                                 },
                                 {
                                     text: 'Lighting for Story & Concept Art, Sam Nielson',
-                                    url: 'https://www.schoolism.com/school.php?id=29'
+                                    url: 'https://schoolism.com/courses/concept-art/lighting-for-story-and-concept-art-sam-nielson'
                                 }
                             ]
                         }
@@ -1089,75 +1281,23 @@ export const drawingData: CData = {
                             ]
                         }
                     ],
-                    notes: 'Focus on thumbnailing during the challenge. If you have time towards the end, pick some of your favorites and make more complete works based on them.'
-                },
-                {
-                    title: 'Perspective VI',
-                    brief: {
-                        name: {
-                            text: 'Krenz Kushart\'s Gumroad Bundle',
-                            url: 'https://krenzcushart.gumroad.com/l/cRkSh'
-                        },
-                        sub: [
-                            {
-                                text: 'Draw a Human Body in Perspective',
-                                url: 'https://krenzcushart.gumroad.com/l/jqcS'
-                            },
-                            {
-                                text: 'Rotate Things in Perspective 1 + 2',
-                                url: 'https://krenzcushart.gumroad.com/l/ZJIno'
-                            },
-                            {
-                                text: 'Control Angle & Proportion in Perspective',
-                                url: 'https://krenzcushart.gumroad.com/l/ITxP'
-                            }
-                        ]
-                    },
-                    references: [
-                        {
-                            category: 'YouTube',
-                            sources: [
-                                {
-                                    text: 'moderndayjames: Emulating Even Amundsen Series',
-                                    url: 'https://www.youtube.com/watch?v=1VSH32ede6g'
-                                }
-                            ]
-                        }
-                    ],
-                    challenges: [
-                        {
-                            name: {
-                                text: 'Draw 100 Figures in Perspective'
-                            }
-                        },
-                        {
-                            name: {
-                                text: 'Rotate 50 Figures a full 360 degrees'
-                            }
-                        },
-                        {
-                            name: {
-                                text: 'Next Level: Draw 50 Compositions of Figures in Extreme Perspectives'
-                            }
-                        }
-                    ],
-                    notes: 'The moderndayjames videos are based on Krenz Kushart\'s bundle. Make sure to do your rotations right - create the perfect perspective map first, and then try again from imagination.'
+                    notes: 'Learn about the principles of art and how those can be used to improve composition, then how you can improve storytelling in your art and how important that is. Focus on thumbnailing during the challenge. Optionally pick a favorite and go into more detail.'
                 }
             ]
         },
         {
             theme: {
-                pallet: [ "#000000", "#FFFFFF", "#f7f8ea", "#c0c662", "#6d213c", "#f5f5f5" ],
+                pallet: [ "#efefef", "#44363a", "#302125", "#dd5b7f", "#ac788b", "#d89528" ],
                 general: { text: 0, back: 1 },
                 accent: 2,
                 term: 3,
-                arrow: { text: 3, back: 4 },
-                note: { text: 1, back: 4 },
-                challenge: { back: 5 },
-                challengeHeading: { text: 1, back: 4 },
-                title: 4,
+                arrow: { text: 3, back: 0 },
+                note: { text: 0, back: 4 },
+                challenge: { text: 1, back: 0 },
+                challengeHeading: { text: 1, back: 5 },
                 brief: 3
             },
+            focus: 'Drawing Exploration',
             units: [
                 {
                     title: 'Anatomy V',
@@ -1233,23 +1373,37 @@ export const drawingData: CData = {
                             }
                         }
                     ],
-                    notes: 'Look up Proko\'s "Draftssmen" podcast, S1E10, "How to Learn Anatomy", and listen to their thoughts in Bridgman before evaluating for yourself whether to learn from his book. Try the YouTube videos instead. Both Hampton and Bridgman are experts though.'
+                    notes: 'Listen to Proko\'s "Draftsmen" podcast, S1E10, "How to Learn Anatomy", and hear their thoughts on Bridgman before determining to learn from his book.'
                 },
                 {
-                    title: 'Perspective VII',
+                    title: 'Perspective VI',
                     brief: {
                         name: {
-                            text: 'moderndayjames: "Becoming a Gi" Series',
-                            url: 'https://www.youtube.com/watch?v=h8x_TClXuxM'
-                        }
+                            text: 'Krenz Kushart\'s Gumroad Bundle',
+                            url: 'https://krenzcushart.gumroad.com/l/cRkSh'
+                        },
+                        sub: [
+                            {
+                                text: 'Draw a Human Body in Perspective',
+                                url: 'https://krenzcushart.gumroad.com/l/jqcS'
+                            },
+                            {
+                                text: 'Rotate Things in Perspective 1 + 2',
+                                url: 'https://krenzcushart.gumroad.com/l/ZJIno'
+                            },
+                            {
+                                text: 'Control Angle & Proportion in Perspective',
+                                url: 'https://krenzcushart.gumroad.com/l/ITxP'
+                            }
+                        ]
                     },
                     references: [
                         {
-                            category: 'Online',
+                            category: 'YouTube',
                             sources: [
                                 {
-                                    text: 'Dynamic Sketching 2, Peter Han',
-                                    url: 'https://www.cgmasteracademy.com/courses/68-dynamic-sketching-2'
+                                    text: 'moderndayjames: Emulating Even Amundsen Series',
+                                    url: 'https://www.youtube.com/watch?v=1VSH32ede6g'
                                 }
                             ]
                         }
@@ -1257,23 +1411,161 @@ export const drawingData: CData = {
                     challenges: [
                         {
                             name: {
-                                text: 'As many studies as possible from imagination:',
-                            },
-                            sub: [
+                                text: 'Draw 100 Figures in Perspective'
+                            }
+                        },
+                        {
+                            name: {
+                                text: 'Rotate 50 Figures a full 360 degrees'
+                            }
+                        },
+                        {
+                            name: {
+                                text: 'Next Level: Draw 50 Compositions of Figures in Extreme Perspectives'
+                            }
+                        }
+                    ],
+                    notes: 'The moderndayjames videos are based on Krenz Kushart\'s bundle. Make sure to do your rotations correctly - Create the perfect perspective map first, and then retry from imagination.'
+                },
+                {
+                    title: 'Caricatures & Cartoons',
+                    brief: {
+                        name: {
+                            text: 'The Art of Caricature w/Court Jones, Proko Premium',
+                            url: 'https://www.proko.com/art-of-caricature-with-court-jones/#.XrWJHxNKh24'
+                        }
+                    },
+                    references: [
+                        {
+                            category: 'YouTube',
+                            sources: [
                                 {
-                                    text: 'Rotate subjects full 360 degrees'
+                                    text: 'FZDSchool: EP 62 - Real-Time Creature Designs',
+                                    url: 'https://www.youtube.com/watch?v=9FGCClodLUE'
                                 },
                                 {
-                                    text: 'Practice curvilinear perspective (Becoming a Gi 3)'
+                                    text: 'Austin Batchelor: Mixing 3 Animals into 1 Creature',
+                                    url: 'https://www.youtube.com/watch?v=HgDkG2wu808'
+                                }
+                            ]
+                        },
+                        {
+                            category: 'Schoolism',
+                            sources: [
+                                {
+                                    text: 'Creature Anatomy, Terryl Whitlatch',
+                                    url: 'https://schoolism.com/courses/concept-art/creature-anatomy-terryl-whitlatch'
                                 },
                                 {
-                                    text: 'Draw subjects in every angle (Becoming a Gi 3)'
+                                    text: 'The Art of Caricature, Jason Seiler',
+                                    url: 'https://schoolism.com/courses/drawing/the-art-of-caricature-jason-seiler'
+                                }
+                            ]
+                        },
+                        {
+                            category: 'Domestika',
+                            sources: [
+                                {
+                                    text: 'Dynamic Animal Illustration for Children\'s Stories',
+                                    url: 'https://www.domestika.org/en/courses/2704-dynamic-animal-illustration-for-children-s-stories'
+                                },
+                                {
+                                    text: 'Creation of Manga Characters',
+                                    url: 'https://www.domestika.org/en/courses/703-creation-of-manga-characters'
                                 }
                             ]
                         }
                     ],
-                    notes: 'One can onnly become a Gi through deliberate practice. Draw as many things from imagination as you can. If you\'re having trouble, start off with a construction, and then draw it again from memory.'
+                    challenges: [
+                        {
+                            name: {
+                                text: '100 Caricatures'
+                            }
+                        },
+                        {
+                            name: {
+                                text: '50 Creature Designs'
+                            }
+                        }
+                    ],
+                    notes: 'Caricature helps in understanding exaggeration and character design. It is the basis for cartooning and stylized art. Explore stylized, exaggerated, and expressive characters, both human and creature.'
                 },
+                {
+                    title: 'Creature Designs',
+                    brief: {
+                        name: {
+                            text: 'Creature Concept Design Vol.2, Deiv Calviz',
+                            url: 'https://cubebrush.co/deivcalviz/products/sstna/creature-concept-design-vol-2'
+                        }
+                    },
+                    references: [
+                        {
+                            category: 'Schoolism',
+                            sources: [
+                                {
+                                    text: 'Creature Design Vol.1, Deiv Calviz',
+                                    url: 'https://cubebrush.co/deivcalviz/products/7rodka/creature-concept-design-thumbnails-to-final'
+                                },
+                                {
+                                    text: 'Alien Character Concept Art, Deiv Calviz',
+                                    url: 'https://cubebrush.co/deivcalviz/products/zzxnaw/alien-character-concept-art'
+                                }
+                            ]
+                        },
+                        {
+                            category: 'Domestika',
+                            sources: [
+                                {
+                                    text: 'Design and Illustration of Fantastical Creatures',
+                                    url: 'https://www.domestika.org/en/courses/3495-design-and-illustration-of-fantastical-creatures'
+                                },
+                                {
+                                    text: 'Character Design for Animation',
+                                    url: 'https://www.domestika.org/en/courses/1073-character-design-for-animation-with-photoshop'
+                                }
+                            ]
+                        },
+                        {
+                            category: '21 Draw',
+                            sources: [
+                                {
+                                    text: 'Designing Fun Animal Characters',
+                                    url: 'https://www.21-draw.com/course/fun-animal-characters/'
+                                }
+                            ]
+                        }
+                    ],
+                    challenges: [
+                        {
+                            name: {
+                                text: '100 Caricatures'
+                            }
+                        },
+                        {
+                            name: {
+                                text: '50 Creature Designs'
+                            }
+                        }
+                    ],
+                    notes: 'Explore anthropomorphic and exotic character creations - really stretch the imagination. Learn how to create character and expression sheets for reproducibility and production.'
+                }
+            ]
+        },
+        {
+            theme: {
+                pallet: [ "#000000", "#FFFFFF", "#f7f8ea", "#c0c662", "#6d213c", "#f5f5f5" ],
+                general: { text: 0, back: 1 },
+                accent: 2,
+                term: 3,
+                arrow: { text: 3, back: 4 },
+                note: { text: 1, back: 4 },
+                challenge: { back: 5 },
+                challengeHeading: { text: 1, back: 4 },
+                title: 4,
+                brief: 3
+            },
+            focus: 'Painting & Environments',
+            units: [
                 {
                     title: 'Environment Design I',
                     brief: {
@@ -1297,7 +1589,20 @@ export const drawingData: CData = {
                             sources: [
                                 {
                                     text: 'Environment Design, Nathan Fowkes',
-                                    url: 'https://www.schoolism.com/school.php?id=26'
+                                    url: 'https://schoolism.com/courses/concept-art/environment-design-nathan-fowkes'
+                                }
+                            ]
+                        },
+                        {
+                            category: 'Blogs',
+                            sources: [
+                                {
+                                    text: 'How I Became and Artist, Noah Bradley',
+                                    url: 'https://noahbradley.com/how-i-became-an-artist/'
+                                },
+                                {
+                                    text: 'Don\'t Go to Art-School',
+                                    url: 'https://noahbradley.com/dont-go-to-art-school/'
                                 }
                             ]
                         }
@@ -1315,49 +1620,11 @@ export const drawingData: CData = {
                         },
                         {
                             name: {
-                                text: 'Options: Create 10 Full Works based on created thumbnails'
+                                text: 'Options: Create 10 Full Works based on prior thumbnails'
                             }
                         }
                     ],
-                    notes: 'Read Noah Bradley\'s, "How I Became and Artist" blogpost, and then his "Don\'t Go to Art-School" post. Art Camp 3 will whip you into shape - don\'t skip it!'
-                }
-            ]
-        },
-        {
-            theme: {
-                pallet: [ "#efefef", "#332b4a", "#270d3b", "#9687cc", "#6d658a", "#ffd178" ],
-                general: { text: 0, back: 1 },
-                accent: 2,
-                term: 3,
-                arrow: { text: 3, back: 0 },
-                note: { text: 0, back: 4 },
-                challenge: { text: 1, back: 0 },
-                challengeHeading: { text: 1, back: 5 },
-                brief: 3
-            },
-            units: [
-                {
-                    title: 'Environment Design II',
-                    brief: {
-                        name: {
-                            text: 'Environment Design Course, James Paick (Gumroad)',
-                            url: 'https://gumroad.com/jamespaick'
-                        }
-                    },
-                    references: [],
-                    challenges: [
-                        {
-                            name: {
-                                text: '100 Environment Thumbnail Studies'
-                            },
-                            sub: [
-                                {
-                                    text: 'Make at least half feature figures, animals, or other additional subjects'
-                                }
-                            ]
-                        }
-                    ],
-                    notes: 'The general intended difference of this unit from the last is to focus more on architectural scenes - buildings, structures, sprawling cityscapes, and intimate streets.'
+                    notes: 'Learn the fundamentals behind good environment design, how it\'s applied to create stunning environments, and how 3D can help speed up the process. Art Camp 3 will whip one into shape - don\'t miss it!'
                 },
                 {
                     title: 'Painting I',
@@ -1393,7 +1660,7 @@ export const drawingData: CData = {
                             sources: [
                                 {
                                     text: 'Essentials of Realism, Jonathan Hardesty',
-                                    url: 'https://www.schoolism.com/school.php?id=33'
+                                    url: 'https://schoolism.com/courses/painting/essentials-of-realism-jonathan-hardesty'
                                 }
                             ]
                         }
@@ -1425,45 +1692,27 @@ export const drawingData: CData = {
                             ]
                         }
                     ],
-                    notes: 'Now we\'re getting into true-blue painting! If learning digitally, learn from traditional painting sources - creativity is bred through limitation. Limit yourself to a defined color palette, no layering, and disable your undo. If you want to learn traditional painting instead, go ahead!'
+                    notes: 'Learn how to create works using shape and value beyond the 1-dimensional use of a pen or pencil. Painting Creativity is bred through limitation. Limit works to a defined color palette, no layering, no undo.'
                 },
                 {
-                    title: 'Anatomy VI',
-                    subtitle: 'Caricature/Animal',
+                    title: 'Environment Design II',
                     brief: {
                         name: {
-                            text: 'The Art of Caricature w/Court Jones, Proko Premium',
-                            url: 'https://www.proko.com/art-of-caricature-with-court-jones/#.XrWJHxNKh24'
+                            text: 'Environment Design Course, James Paick (Gumroad)',
+                            url: 'https://gumroad.com/jamespaick'
                         }
                     },
                     references: [
                         {
-                            category: 'YouTube',
+                            category: 'Books',
                             sources: [
                                 {
-                                    text: 'FZDSchool: EP 62 - Real-Time Creature Designs',
-                                    url: 'https://www.youtube.com/watch?v=9FGCClodLUE'
+                                    text: 'Mysterious Scenes from a Dark Fantasy World',
+                                    url: 'https://www.amazon.com/dp/475625392X'
                                 },
                                 {
-                                    text: 'Austin Batchelor: Mixing 3 Animals into 1 Creature',
-                                    url: 'https://www.youtube.com/watch?v=HgDkG2wu808'
-                                }
-                            ]
-                        },
-                        {
-                            category: 'Schoolism',
-                            sources: [
-                                {
-                                    text: 'Creature Anatomy, Terryl Whitlatch',
-                                    url: 'https://www.schoolism.com/school.php?id=32'
-                                },
-                                {
-                                    text: 'The Art of Caricature, Jason Seiler',
-                                    url: 'https://www.schoolism.com/school.php?id=8'
-                                },
-                                {
-                                    text: 'Realistic Portraits, Jason Seiler',
-                                    url: 'https://www.schoolism.com/school.php?id=37'
+                                    text: 'Beautiful Scenes from a Fantasy World',
+                                    url: 'https://www.amazon.com/dp/4756249663'
                                 }
                             ]
                         }
@@ -1471,37 +1720,17 @@ export const drawingData: CData = {
                     challenges: [
                         {
                             name: {
-                                text: '100 Caricatures'
-                            }
-                        },
-                        {
-                            name: {
-                                text: '100 Animal Studies'
-                            }
-                        },
-                        {
-                            name: {
-                                text: '50 Creature Designs (Only if you\'ve done at least 50 animal studies)'
-                            }
+                                text: '100 Environment Thumbnail Studies'
+                            },
+                            sub: [
+                                {
+                                    text: 'Make at least half feature figures, animals, or other additional subjects'
+                                }
+                            ]
                         }
                     ],
-                    notes: 'Choose your priority for this unit - caricature, or animal drawing. Caricature will really help you learn exaggeration, character design, and will transfer into your normal works. I\'ve seen many recommend this as a subject to learn and practice. Teryyyl Whitlatch\'s "Creature Anatomy" Schoolism course looks top notch.'
-                }
-            ]
-        },
-        {
-            theme: {
-                pallet: [ "#787878", "#FFFFFF", "#f0f3ff", "#6b7fd7", "#e2827c", "#f5f5f5" ],
-                general: { text: 0, back: 1 },
-                accent: 2,
-                term: 3,
-                arrow: { text: 3, back: 0 },
-                note: { text: 1, back: 4 },
-                challenge: { back: 5 },
-                challengeHeading: { text: 1, back: 4 },
-                brief: 3
-            },
-            units: [
+                    notes: 'Continuing the fundamentals behind good environment design and world building. Focus more on architectural scenes - buildings, structures, sprawling cityscapes, and intricate roadways.'
+                },
                 {
                     title: 'Painting II',
                     brief: {
@@ -1563,7 +1792,133 @@ export const drawingData: CData = {
                             ]
                         }
                     ],
-                    notes: 'Pick a focus of study - environments, portraiture, figures, full scenese - or everything! You do you. Apply the recommended challenges to your main focus.'
+                    notes: 'Select an emphasis: environments, portraits, figures, full scenes, etc, and apply the challenges'
+                }
+            ]
+        },
+        {
+            theme: {
+                pallet: [ "#efefef", "#332b4a", "#270d3b", "#9687cc", "#6d658a", "#ffd178" ],
+                general: { text: 0, back: 1 },
+                accent: 2,
+                term: 3,
+                arrow: { text: 3, back: 0 },
+                note: { text: 0, back: 4 },
+                challenge: { text: 1, back: 0 },
+                challengeHeading: { text: 1, back: 5 },
+                brief: 3
+            },
+            focus: 'Wrapping Up',
+            units: [
+                {
+                    title: 'Prop Design',
+                    brief: {
+                        name: {
+                            text: 'Prop Design, Marc Brunet',
+                            url: 'https://cubebrush.co/mb/products/bylkq/prop-design-class'
+                        }
+                    },
+                    references: [
+                        {
+                            category: 'YouTube',
+                            sources: [
+                                {
+                                    text: 'Analysis, Shape Language, and Sci-Fi Designs, moderndayjames',
+                                    url: 'https://youtu.be/crCZEQEgFZ0'
+                                },
+                                {
+                                    text: 'Exteriors and Props, moderndayjames',
+                                    url: 'https://youtu.be/tacFAOrKr1E'
+                                },
+                                {
+                                    text: 'How to work like a concept artist, Vizlab Studios',
+                                    url: 'https://youtu.be/zKP3BVdNUSA'
+                                },
+                                {
+                                    text: 'Drawing Organics II',
+                                    url: 'https://www.youtube.com/watch?v=3zD6Lz91eqI&list=PLcSo15smpR4TYiRHKwUiGR37zd3oDDzJs'
+                                }
+                            ]
+                        },
+                        {
+                            category: 'Cubebrush ARTSchool',
+                            sources: [
+                                {
+                                    text: 'Term 8, Props Design',
+                                    url: 'https://cubebrush.co/mb/products/rfergw/art-school-term-8?ref=marc'
+                                },
+                                {
+                                    text: 'Prop Design, Foundation Arts',
+                                    url: 'https://cubebrush.co/foundationartgroup/products/euhaka/prop-design'
+                                }
+                            ]
+                        }
+                    ],
+                    challenges: [
+                        {
+                            name: 'Draw 250 props',
+                            sub: [
+                                {
+                                    text: 'Wearables: Travel bags, canteens, necklaces, hair pieces, jewelry, clothes, etc'
+                                },
+                                {
+                                    text: 'Weapons: Bow, spear, blade, axe, club, rifle, etc'
+                                },
+                                {
+                                    text: 'Merchantables: Study, candles, books, scrolls, kitchenware, barrels, food, plants, tools, etc'
+                                },
+                                {
+                                    text: 'Furniture: Windows, doors, chests, curtains, chairs, tables, etc'
+                                },
+                                {
+                                    text: 'Botany: Trees, shrubs, flowers, fungus, crops, etc'
+                                },
+                                {
+                                    text: 'Currency: Coins, notes, gems, etc'
+                                }
+                            ]
+                        }
+                    ],
+                    notes: 'Learn how to design awesome props for characters, environments, and everything in-between.'
+                },
+                {
+                    title: 'Perspective VII',
+                    brief: {
+                        name: {
+                            text: 'moderndayjames: "Becoming a Gi" Series',
+                            url: 'https://www.youtube.com/watch?v=h8x_TClXuxM'
+                        }
+                    },
+                    references: [
+                        {
+                            category: 'Online',
+                            sources: [
+                                {
+                                    text: 'Dynamic Sketching 2, Peter Han',
+                                    url: 'https://www.cgmasteracademy.com/courses/68-dynamic-sketching-2'
+                                }
+                            ]
+                        }
+                    ],
+                    challenges: [
+                        {
+                            name: {
+                                text: 'As many studies as possible from imagination:',
+                            },
+                            sub: [
+                                {
+                                    text: 'Rotate subjects full 360 degrees'
+                                },
+                                {
+                                    text: 'Practice curvilinear perspective (Becoming a Gi 3)'
+                                },
+                                {
+                                    text: 'Draw subjects in every angle (Becoming a Gi 3)'
+                                }
+                            ]
+                        }
+                    ],
+                    notes: 'One only becomes a Gi through deliberate practice. Build a mental library of objects, creatures, and environments visualized in three-dimensions. Focus on foreshortening, projection, and camera angle.'
                 },
                 {
                     title: 'Painting III',
@@ -1580,7 +1935,7 @@ export const drawingData: CData = {
                             sources: [
                                 {
                                     text: 'Term 9, Matte Painting',
-                                    url: 'https://cubebrush.co/mb/products/mmfwyq/art-school'
+                                    url: 'https://cubebrush.co/mb/products/krbba/art-school-term-9?ref=marc'
                                 }
                             ]
                         },
@@ -1589,7 +1944,7 @@ export const drawingData: CData = {
                             sources: [
                                 {
                                     text: 'Digital Painting, Craig Mullins',
-                                    url: 'https://www.schoolism.com/school.php?id=44'
+                                    url: 'https://schoolism.com/courses/painting/digital-painting-craig-mullins'
                                 }
                             ]
                         }
@@ -1611,13 +1966,13 @@ export const drawingData: CData = {
                             ]
                         }
                     ],
-                    notes: 'Matte painting is a practice used in concept art to achieve photorealistic paintings quickly. While not for everyone, you may learn some good concepts for efficiency. If you don\'t want to learn to photobash, continue to exercise painting full scene studies (from your favorite artists or movies).'
+                    notes: 'Learn to create art for films using a combination of photo material and digital painting. Matte painting is a practice used in concept art to achieve photorealistic paintings quickly.'
                 },
                 {
-                    title: 'Personal Project',
+                    title: 'Final Project',
                     brief: {
                         name: {
-                            text: '"The Skillful Huntsman", Felix Yoon, Khang Le, Mike Yamada, & Scott Robertson',
+                            text: '"The Skillful Huntsman", Khang Le, et al.',
                             url: 'https://www.amazon.com/dp/0972667644'
                         }
                     },
@@ -1636,11 +1991,11 @@ export const drawingData: CData = {
                             sources: [
                                 {
                                     text: 'Introduction to Visual Development w/ Victoria Ying',
-                                    url: 'https://www.schoolism.com/school.php?id=46'
+                                    url: 'https://schoolism.com/courses/concept-art/introduction-to-visual-development-victoria-ying'
                                 },
                                 {
                                     text: 'Painting w/ Light & Color, Dice Tsutsumi & Robert Kondo',
-                                    url: 'https://www.schoolism.com/school.php?id=30'
+                                    url: 'https://schoolism.com/courses/concept-art/painting-with-light-and-color-dice-tsutsumi'
                                 }
                             ]
                         }
@@ -1648,16 +2003,22 @@ export const drawingData: CData = {
                     challenges: [
                         {
                             name: {
-                                text: '3 Personal Projects'
+                                text: '3 Projects'
                             },
                             sub: [
                                 {
-                                    text: 'Concept, visual design, multiple perspectives, compositions, color variations, character variations, environment variations'
+                                    text: '1 or more environment settings'
+                                },
+                                {
+                                    text: '1 or more character sheets'
+                                },
+                                {
+                                    text: '1 storyboard (five or more panels)'
                                 }
                             ]
                         }
                     ],
-                    notes: 'For your personal project, challenge yourself to conceptualize and visualize every aspect of your creative project. "The Skillful Huntsman" walks your through the entire process. If that\'s too grand in scope, apply the practices your learned to something like a cast of characters, species of animal, or locale.'
+                    notes: 'This unit is dedicated to challenging onself - utilize all skills built up to this point to create a visual foundation for an animation.'
                 }
             ]
         }

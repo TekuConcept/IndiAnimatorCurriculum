@@ -34,7 +34,11 @@ interface LinkProps {
 }
 
 function Link(props: LinkProps) {
-    return <a href={props.href}>
+    return <a
+        href={props.href}
+        target='_blank'
+        rel='noreferrer'
+    >
         {props.children}
         {props.sub ? <><br /><span>{props.sub}</span></> : <></>}
     </a>
@@ -170,7 +174,8 @@ const BookLinks: Array<LinkInfo> = [
     { title: 'The Illusion of Life', sub: 'by Ollie Johnston and Frank Thomas', url: 'https://www.amazon.com/dp/0786860707' },
     { title: 'Drawing: Cartooning 1', sub: 'by Jack Keely and Carson Van Osten', url: 'https://www.amazon.com/dp/1633227812' },
     { title: 'Cartooning: Animation 1', sub: 'by Preston Blair', url: 'https://www.amazon.com/dp/1633227731' },
-    { title: 'Vision: Color and Composition for Film', sub: 'by Hans P. Backer and Sanatan Suryavanshi', url: 'https://www.amazon.com/dp/1786272202' }
+    { title: 'Vision: Color and Composition for Film', sub: 'by Hans P. Backer and Sanatan Suryavanshi', url: 'https://www.amazon.com/dp/1786272202' },
+    { title: 'Gesture Drawing for Animation', sub: 'by Walt Stanchfield and Leo Brodie', url: 'https://www.amazon.com/dp/B08KQ58SD3' }
 ]
 
 const OnlineLinks: Array<LinkInfo> =[
