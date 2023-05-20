@@ -148,7 +148,7 @@ function UnitChallenge(props: UnitChallengeProps) {
             backgroundColor: heading.back
         }}>Challenge</h3>
         {props.data?.map((challenge, i) =>
-            <p><XLinkNode key={i} data={challenge} /></p>)}
+            <div key={i}><XLinkNode data={challenge} /></div>)}
     </section>
 }
 

@@ -165,7 +165,7 @@ const BookLinks: Array<LinkInfo> = [
     { title: 'How to Draw Hair', sub: 'by Paryi', url: 'https://www.amazon.co.jp/dp/B095Y8M7F8' },
     { title: 'How to Draw a Beastman', sub: 'by 福井真一 and 玄光社', url: 'https://www.amazon.co.jp/dp/B0822CFRLB' },
     { title: 'Beastman Pose Collection', sub: 'by 山羊ヤマ and more', url: 'https://www.amazon.co.jp/dp/B08QYWQWSR' },
-    { title: 'Draw Manga Faces for Expressive Characters', sub: 'by by Hosoi Aya', url: 'https://www.amazon.com/dp/1440337284' },
+    { title: 'Draw Manga Faces for Expressive Characters', sub: 'by Hosoi Aya', url: 'https://www.amazon.com/dp/1440337284' },
     { title: 'How to Create Manga: Drawing Facial Expressions', sub: 'by NextCreator Henshubu', url: 'https://www.amazon.com/dp/4805315628' },
     { title: 'Manga Chibi Girls', sub: 'by Mosoko Miyatsuki', url: 'https://www.amazon.com/dp/4805316136' },
 
@@ -196,6 +196,9 @@ const OnlineLinks: Array<LinkInfo> =[
     { title: 'Schoolism', sub: '', url: 'https://www.schoolism.com/' },
     { title: 'Society of Visual Storytelling', sub: '', url: 'https://www.svslearn.com/' },
     { title: 'Watts Atelier Online', sub: '', url: 'https://www.wattsatelier.com/online/' },
+
+    { title: 'Architectural Design', sub: 'Charles Lin', url: 'https://cubebrush.co/foundationartgroup/products/glrgsw/sketching-architectural-design-part-3' },
+    { title: 'Drawing Stylized Architecture', sub: 'David Harrington', url: 'https://cubebrush.co/davidharrington/products/qdulsq/drawing-stylized-architecture' }
 ]
 
 const BlogLinks: Array<LinkInfo> = [

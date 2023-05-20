@@ -1054,6 +1054,15 @@ export const drawingData: CData = {
                             ]
                         },
                         {
+                            category: 'Domestika',
+                            sources: [
+                                {
+                                    text: 'Character Design for Animation',
+                                    url: 'https://www.domestika.org/en/courses/1073-character-design-for-animation-with-photoshop'
+                                }
+                            ]
+                        },
+                        {
                             category: 'Schoolism',
                             sources: [
                                 {
@@ -1518,10 +1527,6 @@ export const drawingData: CData = {
                                 {
                                     text: 'Design and Illustration of Fantastical Creatures',
                                     url: 'https://www.domestika.org/en/courses/3495-design-and-illustration-of-fantastical-creatures'
-                                },
-                                {
-                                    text: 'Character Design for Animation',
-                                    url: 'https://www.domestika.org/en/courses/1073-character-design-for-animation-with-photoshop'
                                 }
                             ]
                         },

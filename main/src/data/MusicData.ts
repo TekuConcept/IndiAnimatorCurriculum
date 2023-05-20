@@ -47,7 +47,7 @@ export const musicData: CData = {
                         },
                         { name: 'Challenge 2' }
                     ],
-                    notes: 'This is an example unit. Notes for the unit are provided here. Each unit should be studied for at least one week to be effective. Challenges provide some guidence for what to do and an opportunit to push oneself. Don\'t worry if you are unable to complete the challenges within the week.'
+                    notes: 'This is an example unit. The music curriculum isn\'t ready at this time. For those who can\'t wait, consider some research regarding "Music Theory" and "Foley".'
                 }
             ]
         }
