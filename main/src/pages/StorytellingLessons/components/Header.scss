@@ -1,0 +1,23 @@
+
+header.lessons-header {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+
+    // #navbar { background-color: initial !important; }
+    #navbar {
+        color: black;
+        background-color: white;
+
+        & > p {
+            font-weight: 400;
+            span {
+                // background: -webkit-linear-gradient(#c750ff, #002a2e);
+                background: -webkit-linear-gradient(#038eac, #038eac);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+}
