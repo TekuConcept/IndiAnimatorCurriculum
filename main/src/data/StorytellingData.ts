@@ -297,7 +297,7 @@ export const storytellingData: CData = {
                                     url: 'https://jerichowriters.com/how-to-plot-a-novel/'
                                 },
                                 {
-                                    text: 'How to Add Subplots to Your Story, Dan Brown',
+                                    text: 'How to Add Subplots to Your Story, MasterClass',
                                     url: 'https://www.masterclass.com/articles/how-to-add-subplots-to-your-story'
                                 }
                             ]
@@ -322,24 +322,48 @@ export const storytellingData: CData = {
                 },
                 {
                     title: 'Writing Strategies',
-                    brief: { name: '' },
+                    brief: {
+                        name: {
+                            text: 'Pantser, Plotter, and Plantser, The Magic Violinist',
+                            url: 'https://thewritepractice.com/plotters-pantsers/'
+                        }
+                    },
                     references: [
                         {
-                            category: '',
+                            category: 'Online',
                             sources: [
-                                { text: '' }
+                                {
+                                    text: 'What Kind of Writer Are You?, MasterClass',
+                                    url: 'https://www.masterclass.com/articles/plotters-vs-pantsers-what-kind-of-writer-are-you'
+                                },
+                                {
+                                    text: 'The Pros And Cons Of Plotting And Pantsing, Jessica A. McMinn',
+                                    url: 'https://writersedit.com/fiction-writing/the-pros-and-cons-of-plotting-and-pantsing/'
+                                }
+                            ]
+                        },
+                        {
+                            category: 'YouTube',
+                            sources: [
+                                {
+                                    text: 'Are you panster or plotter writer, ana neu',
+                                    url: 'https://youtu.be/Sk_7Xfjm-wY'
+                                }
                             ]
                         }
                     ],
                     challenges: [
                         {
-                            name: '',
-                            sub: [
-                                { text: '' }
-                            ]
+                            name: 'Write 2 stories using the Pantser method'
+                        },
+                        {
+                            name: 'Write 2 stories using the Plotter method'
+                        },
+                        {
+                            name: 'Write 2 stories using the Planster method (Panster + Plotter)'
                         }
                     ],
-                    notes: ''
+                    notes: 'With drawing, there is impromptu and blocking gestures. With animation, there is inbetweening and straight-ahead. Writing as an art form isn\'t much different - there are pansters, plotters, and a little bit of both.'
                 },
                 {
                     title: 'Structure II',
