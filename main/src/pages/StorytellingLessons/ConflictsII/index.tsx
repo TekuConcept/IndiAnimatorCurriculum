@@ -17,30 +17,32 @@ export default function ConflictsII() {
             <h1>Conflict in Stories Continued</h1>
             <img src={ConflictImage} alt="" />
             <LeafDivider />
-            <p>
-                Conflict serves several purposes in literature. It creates tension and suspense,
-                keeps readers engaged, and drives the plot forward. It allows for the
-                development of characters as they respond to challenges and make choices.
-                Ultimately, conflict adds depth and meaning to a literary work, providing the
-                opportunity for growth, transformation, and resolution.
-            </p>
-            <p>
-                Again, the seven types of conflict in storytelling are:
-            </p>
-            <ol className='shrink' >
-                <li><a href="/StorytellingLessons/ConflictsI#charVself" >Character vs. Themself</a></li>
-                <li><a href="/StorytellingLessons/ConflictsI#charVchar" >Character vs. Character</a></li>
-                <li><a href="/StorytellingLessons/ConflictsI#charVenvr" >Character vs. Environment or Society</a></li>
-                <li><a href="/StorytellingLessons/ConflictsI#charVelem" >Character vs. Nature or the Elements</a></li>
-                <li><a href="#charVtech" >Character vs. Technology</a></li>
-                <li><a href="#charVmech" >Character vs. Machine</a></li>
-                <li><a href="#charVunkn" >Character vs. God, the Supernatural, or the Unknown</a></li>
-                <li><a href="#charVfate" >Character vs. Fate or Destiny</a></li>
-            </ol>
-            <p>
-                In this lesson, we'll cover the last three conflicts. Links to the former
-                conflicts are conviniently made accessible above for review as needed.
-            </p>
+            <section>
+                <p>
+                    Conflict serves several purposes in literature. It creates tension and suspense,
+                    keeps readers engaged, and drives the plot forward. It allows for the
+                    development of characters as they respond to challenges and make choices.
+                    Ultimately, conflict adds depth and meaning to a literary work, providing the
+                    opportunity for growth, transformation, and resolution.
+                </p>
+                <p>
+                    Again, the seven types of conflict in storytelling are:
+                </p>
+                <ol className='shrink' >
+                    <li><a href="/StorytellingLessons/ConflictsI#charVself" >Character vs. Themself</a></li>
+                    <li><a href="/StorytellingLessons/ConflictsI#charVchar" >Character vs. Character</a></li>
+                    <li><a href="/StorytellingLessons/ConflictsI#charVenvr" >Character vs. Environment or Society</a></li>
+                    <li><a href="/StorytellingLessons/ConflictsI#charVelem" >Character vs. Nature or the Elements</a></li>
+                    <li><a href="#charVtech" >Character vs. Technology</a></li>
+                    <li><a href="#charVmech" >Character vs. Machine</a></li>
+                    <li><a href="#charVunkn" >Character vs. God, the Supernatural, or the Unknown</a></li>
+                    <li><a href="#charVfate" >Character vs. Fate or Destiny</a></li>
+                </ol>
+                <p>
+                    In this lesson, we'll cover the last three conflicts. Links to the former
+                    conflicts are conviniently made accessible above for review as needed.
+                </p>
+            </section>
             <section>
                 <h2 id="charVtech">Character vs Technology</h2>
                 <p>

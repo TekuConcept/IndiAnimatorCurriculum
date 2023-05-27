@@ -45,6 +45,11 @@ main.lesson-main {
                 transition: ease-in-out 0.2s;
             }
         }
+
+        .ql-editor{
+            max-height: 300px;
+            overflow: auto;
+        }
     }
 
     h1 {

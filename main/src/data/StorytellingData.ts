@@ -278,24 +278,47 @@ export const storytellingData: CData = {
                 },
                 {
                     title: 'Plots',
-                    brief: { name: '' },
+                    brief: {
+                        name: {
+                            text: 'Plotting Your Next Adventure',
+                            url: '/StorytellingLessons/Plots'
+                        }
+                    },
                     references: [
                         {
-                            category: '',
+                            category: 'Online',
                             sources: [
-                                { text: '' }
+                                {
+                                    text: 'How to Write a Story Plot, Lindsay Kramer',
+                                    url: 'https://www.grammarly.com/blog/story-plot/'
+                                },
+                                {
+                                    text: 'How To Plot A Novel, Harry Bingham',
+                                    url: 'https://jerichowriters.com/how-to-plot-a-novel/'
+                                },
+                                {
+                                    text: 'How to Add Subplots to Your Story, Dan Brown',
+                                    url: 'https://www.masterclass.com/articles/how-to-add-subplots-to-your-story'
+                                }
                             ]
                         }
                     ],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Write 10 unique story plots',
                             sub: [
-                                { text: '' }
+                                { text: 'At least 3 unique plot types' },
+                                { text: 'Include all 5 parts of a plot' }
+                            ]
+                        },
+                        {
+                            name: 'Stretch your imagination',
+                            sub: [
+                                { text: 'Write 15 more story plots' }
                             ]
                         }
                     ],
-                    notes: ''
+                    notes: 'Story structure provides the "how" while story plots provide the "what" in storytelling. Learn about the different types of plots as well as how to build a plot from scratch.'
                 },
                 {
                     title: 'Writing Strategies',
