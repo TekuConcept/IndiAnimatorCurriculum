@@ -339,6 +339,10 @@ export const storytellingData: CData = {
                                 {
                                     text: 'The Pros And Cons Of Plotting And Pantsing, Jessica A. McMinn',
                                     url: 'https://writersedit.com/fiction-writing/the-pros-and-cons-of-plotting-and-pantsing/'
+                                },
+                                {
+                                    text: 'Learn About Beats in Screenwriting, MasterClass',
+                                    url: 'https://www.masterclass.com/articles/what-is-a-beat-in-screenwriting'
                                 }
                             ]
                         },
@@ -433,24 +437,48 @@ export const storytellingData: CData = {
             units: [
                 {
                     title: 'Places & Settings',
-                    brief: { name: '' },
+                    brief: {
+                        name: {
+                            text: 'How To Create Your Story\'s Setting, Andrea R. Cranford',
+                            url: 'https://thenarrativearc.org/setting'
+                        }
+                    },
                     references: [
                         {
-                            category: '',
+                            category: 'Online',
                             sources: [
-                                { text: '' }
+                                {
+                                    text: 'Setting And Sense Of Place, The Creative Penn',
+                                    url: 'https://www.thecreativepenn.com/2023/03/14/writing-tips-setting-and-sense-of-place/'
+                                },
+                                {
+                                    text: 'How to Write 3 Types of Settings, reedsy',
+                                    url: 'https://blog.reedsy.com/setting-of-a-story/'
+                                },
+                                {
+                                    text: '5 Tips for Choosing a Setting, MasterClass',
+                                    url: 'https://www.masterclass.com/articles/understanding-story-setting'
+                                }
                             ]
                         }
                     ],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Create 10 story settings',
                             sub: [
-                                { text: '' }
+                                { text: 'Use the 5 senses' },
+                                { text: 'Describe rooms, homes, towns, nature, otherworldy settings, vehicles, ships, etc.' }
+                            ]
+                        },
+                        {
+                            name: 'Stretch your imagination',
+                            sub: [
+                                { text: 'Create 10 more story settings' },
+                                { text: 'Try to paint as clear a picture with as few words as possible' }
                             ]
                         }
                     ],
-                    notes: ''
+                    notes: 'Learn about the importance of establishing a story\'s place and setting. Explore the three type of setting to consider, namely, the Temporal Setting, the Environmental Setting, and the Individual (or Backdrop) Setting.'
                 },
                 {
                     title: 'Narration',
