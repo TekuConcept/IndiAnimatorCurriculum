@@ -21,6 +21,7 @@ import StructureI from './pages/StorytellingLessons/StructureI'
 import StructureII from './pages/StorytellingLessons/StructureII'
 import StructureIII from './pages/StorytellingLessons/StructureIII'
 import Plots from './pages/StorytellingLessons/Plots'
+import Narration from './pages/StorytellingLessons/Narration'
 
 export default function App() {
     return <BrowserRouter>
@@ -38,6 +39,7 @@ export default function App() {
                 <Route path="StructureII" element={<StructureII />} />
                 <Route path="StructureIII" element={<StructureIII />} />
                 <Route path="Plots" element={<Plots />} />
+                <Route path="Narration" element={<Narration />} />
             </Route>
         </Routes>
     </BrowserRouter>

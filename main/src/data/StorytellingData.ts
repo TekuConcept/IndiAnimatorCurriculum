@@ -482,24 +482,36 @@ export const storytellingData: CData = {
                 },
                 {
                     title: 'Narration',
-                    brief: { name: '' },
+                    brief: {
+                        name: {
+                            text: 'Narration: The Perspectives of Storytelling',
+                            url: '/StorytellingLessons/Narration'
+                        }
+                    },
                     references: [
                         {
-                            category: '',
+                            category: 'Online',
                             sources: [
-                                { text: '' }
+                                {
+                                    text: 'Complete Guide to Different Types of Point of View, MasterClass',
+                                    url: 'https://www.masterclass.com/articles/complete-guide-to-point-of-view-in-writing-definitions-and-examples'
+                                },
+                                {
+                                    text: 'Writing Point of View: 1st, 2nd, 3rd & 4th, Dave Chesson',
+                                    url: 'https://kindlepreneur.com/point-of-view/'
+                                }
                             ]
                         }
                     ],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Write a personal journal',
                             sub: [
-                                { text: '' }
+                                { text: 'Narrate it in 3 or more points of view' }
                             ]
                         }
                     ],
-                    notes: ''
+                    notes: 'Learn about the different perspectives authors may narrate in their stories. Point of view is crucial in storytelling because it shapes the reader\'s understanding, engagement, and connection to the narrative.'
                 },
                 {
                     title: 'Genres',
