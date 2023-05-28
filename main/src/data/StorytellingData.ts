@@ -433,7 +433,7 @@ export const storytellingData: CData = {
                 challengeHeading: { text: 1, back: 4 },
                 brief: 3
             },
-            focus: 'Theory III - Places, Settings, & Narration',
+            focus: 'Theory III - Settings And Styles',
             units: [
                 {
                     title: 'Places & Settings',
