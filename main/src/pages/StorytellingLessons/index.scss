@@ -1,4 +1,6 @@
 
+body:has(main.lesson-main) { background-color: white !important; }
+
 main.lesson-main {
     flex: 1;
     width: 100%;

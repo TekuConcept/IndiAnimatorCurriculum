@@ -514,25 +514,49 @@ export const storytellingData: CData = {
                     notes: 'Learn about the different perspectives authors may narrate in their stories. Point of view is crucial in storytelling because it shapes the reader\'s understanding, engagement, and connection to the narrative.'
                 },
                 {
-                    title: 'Genres',
-                    brief: { name: '' },
+                    title: 'Genres and Themes',
+                    brief: {
+                        name: {
+                            text: 'Exploring Genres and Themes',
+                            url: '/StorytellingLessons/Genres'
+                        }
+                    },
                     references: [
                         {
-                            category: '',
+                            category: 'Online',
                             sources: [
-                                { text: '' }
+                                {
+                                    text: 'The 17 Most Popular Genres In Fiction - And Why They Matter, Amanda Patterson',
+                                    url: 'https://www.writerswrite.co.za/the-17-most-popular-genres-in-fiction-and-why-they-matter/'
+                                },
+                                {
+                                    text: 'What Are the Different Genres of Literature, Dan Brown',
+                                    url: 'https://www.masterclass.com/articles/what-are-the-different-genres-of-literature-a-guide-to-14-literary-genres'
+                                },
+                                {
+                                    text: 'How to Develop a Theme for Your Story, Dan Brown',
+                                    url: 'https://www.masterclass.com/articles/how-to-develop-a-theme-for-your-story'
+                                }
                             ]
                         }
                     ],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Write a simple story',
                             sub: [
-                                { text: '' }
+                                { text: 'Write in 3 or more genres' },
+                                { text: 'Explore complimentary genres' },
+                                { text: '(Optional) Use the same plot' }
+                            ]
+                        },
+                        {
+                            name: 'Stretch your imagination',
+                            sub: [
+                                { text: 'Write a simple story in a less intuitive genre such as a comedy or a mystery' }
                             ]
                         }
                     ],
-                    notes: ''
+                    notes: 'Genres help readers and audiences find stories that align with their preferences and provide a framework for understanding and exploring different narrative styles and themes. Explore the patterns and sciences of genres and themes.'
                 },
                 {
                     title: 'Structure III',

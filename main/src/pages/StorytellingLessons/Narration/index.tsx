@@ -10,7 +10,7 @@ import 'react-quill/dist/quill.snow.css'
 import Landscape from './../resources/landscape-1.jpeg'
 import Acting from './../resources/acting-1.jpeg'
 
-export default function StructureI() {
+export default function Narration() {
     const [ edit1Value, setEdit1Value ] = useState('')
     const [ edit2Value, setEdit2Value ] = useState('')
     // const [ edit3Value, setEdit3Value ] = useState('')

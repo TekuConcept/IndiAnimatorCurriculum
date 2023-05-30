@@ -21,7 +21,7 @@ import Howl1 from './../resources/howl-1.webp'
 import Howl2 from './../resources/howl-2.jpeg'
 import Howl3 from './../resources/howl-3.jpeg'
 
-export default function StructureI() {
+export default function Plots() {
     const [ plot1Value, setPlot1Value ] = useState('')
     const [ plot2Value, setPlot2Value ] = useState('')
     const [ plot3Value, setPlot3Value ] = useState('')

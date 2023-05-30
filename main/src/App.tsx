@@ -22,6 +22,14 @@ import StructureII from './pages/StorytellingLessons/StructureII'
 import StructureIII from './pages/StorytellingLessons/StructureIII'
 import Plots from './pages/StorytellingLessons/Plots'
 import Narration from './pages/StorytellingLessons/Narration'
+import Genres from './pages/StorytellingLessons/Genres'
+import GenreAdventure from './pages/StorytellingLessons/Genres/Adventure'
+import GenreFantasy from './pages/StorytellingLessons/Genres/Fantasy'
+import GenreMystery from './pages/StorytellingLessons/Genres/Mystery'
+import GenreRomance from './pages/StorytellingLessons/Genres/Romance'
+import GenreScienceFiction from './pages/StorytellingLessons/Genres/ScienceFiction'
+import GenreThriller from './pages/StorytellingLessons/Genres/Thriller'
+import GenreComedy from './pages/StorytellingLessons/Genres/Comedy'
 
 export default function App() {
     return <BrowserRouter>
@@ -40,6 +48,14 @@ export default function App() {
                 <Route path="StructureIII" element={<StructureIII />} />
                 <Route path="Plots" element={<Plots />} />
                 <Route path="Narration" element={<Narration />} />
+                <Route path="Genres" element={<Genres />} />
+                <Route path="Genres/Adventure" element={<GenreAdventure />} />
+                <Route path="Genres/Fantasy" element={<GenreFantasy />} />
+                <Route path="Genres/Mystery" element={<GenreMystery />} />
+                <Route path="Genres/Romance" element={<GenreRomance />} />
+                <Route path="Genres/ScienceFiction" element={<GenreScienceFiction />} />
+                <Route path="Genres/Thriller" element={<GenreThriller />} />
+                <Route path="Genres/Comedy" element={<GenreComedy />} />
             </Route>
         </Routes>
     </BrowserRouter>
