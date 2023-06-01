@@ -30,6 +30,10 @@ import GenreRomance from './pages/StorytellingLessons/Genres/Romance'
 import GenreScienceFiction from './pages/StorytellingLessons/Genres/ScienceFiction'
 import GenreThriller from './pages/StorytellingLessons/Genres/Thriller'
 import GenreComedy from './pages/StorytellingLessons/Genres/Comedy'
+import ShortStories from './pages/StorytellingLessons/ShortStories'
+import LongStories from './pages/StorytellingLessons/LongStories'
+import VisualStories from './pages/StorytellingLessons/VisualStories'
+import Screenplays from './pages/StorytellingLessons/Screenplays'
 
 export default function App() {
     return <BrowserRouter>
@@ -56,6 +60,10 @@ export default function App() {
                 <Route path="Genres/ScienceFiction" element={<GenreScienceFiction />} />
                 <Route path="Genres/Thriller" element={<GenreThriller />} />
                 <Route path="Genres/Comedy" element={<GenreComedy />} />
+                <Route path="ShortStories" element={<ShortStories />} />
+                <Route path="LongStories" element={<LongStories />} />
+                <Route path="VisualStories" element={<VisualStories />} />
+                <Route path="Screenplays" element={<Screenplays />} />
             </Route>
         </Routes>
     </BrowserRouter>

@@ -536,6 +536,10 @@ export const storytellingData: CData = {
                                 {
                                     text: 'How to Develop a Theme for Your Story, Dan Brown',
                                     url: 'https://www.masterclass.com/articles/how-to-develop-a-theme-for-your-story'
+                                },
+                                {
+                                    text: '144 Genres and Subgenres for Fiction Writing, Tonya Thompson',
+                                    url: 'https://www.servicescape.com/blog/144-genres-and-subgenres-for-fiction-writing'
                                 }
                             ]
                         }
@@ -618,91 +622,199 @@ export const storytellingData: CData = {
                 challengeHeading: { back: 6 },
                 brief: 3
             },
-            focus: 'Mediums - Different ways to present a story',
+            focus: 'Mediums - Different ways to share a story',
             units: [
                 {
                     title: 'Short Stories',
-                    brief: { name: '' },
+                    brief: {
+                        name: {
+                            text: 'Writing Simple Short Stories',
+                            url: '/StorytellingLessons/ShortStories'
+                        }
+                    },
                     references: [
                         {
-                            category: '',
+                            category: 'Online',
                             sources: [
-                                { text: '' }
+                                {
+                                    text: 'How to Write a Short Story: The Short Story Checklist, Sean Glatch',
+                                    url: 'https://writers.com/how-to-write-a-short-story'
+                                },
+                                {
+                                    text: '(Example) The White Fox, Avril',
+                                    url: 'https://avriyll.artstation.com/projects/baVEam'
+                                }
                             ]
                         }
                     ],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Write 5 short stories',
                             sub: [
-                                { text: '' }
+                                { text: 'At least 500 words each' }
                             ]
+                        },
+                        {
+                            name: 'Or write 2000 words combined of flash, sketch, and short stories'
                         }
                     ],
-                    notes: ''
+                    notes: 'Short stories are one of the easiest ways to get started with creative fiction and to test out new ideas. A short story is a story with a fully developed theme but significantly shorter and less elaborate than a novel. These stories can range from just a few sentences to around 15,000 words.'
                 },
                 {
-                    title: 'Comics & Storyboarding',
-                    brief: { name: '' },
+                    title: 'Long Stories',
+                    brief: {
+                        name: {
+                            text: 'Writing Much Longer Stories',
+                            url: '/StorytellingLessons/LongStories'
+                        }
+                    },
                     references: [
                         {
-                            category: '',
+                            category: 'Online',
                             sources: [
-                                { text: '' }
+                                {
+                                    text: 'How to Write a Novel in 10 Steps, Neil Gaiman',
+                                    url: 'https://www.masterclass.com/articles/how-to-write-a-novel'
+                                }
                             ]
                         }
                     ],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Write a Novelette',
                             sub: [
-                                { text: '' }
+                                { text: 'At least 7500 words' }
+                            ]
+                        },
+                        {
+                            name: 'Or Read a Novella or similar',
+                            sub: [
+                                { text: 'Identify the genre, theme, character arcs, settings, etc.' },
+                                { text: 'Example Literature: "Star Wars Ahsoka" by Dave Filoni et al, "Warriors" by Erin Hunter, etc.' }
                             ]
                         }
                     ],
-                    notes: ''
+                    notes: 'Longer stories are classified as either a novelette, novella, or novel depending of word count. These are relatively long works of fiction that require a great deal more investment and creativity. "The Lord of the Rings" and "The Chronicles of Narnia" are popular examples of novel stories.'
+                },
+                {
+                    title: 'Visual Stories',
+                    brief: {
+                        name: {
+                            text: 'Pictures are Worth a Thousand Words',
+                            url: '/StorytellingLessons/VisualStories'
+                        }
+                    },
+                    references: [
+                        {
+                            category: 'Online',
+                            sources: [
+                                {
+                                    text: 'How to Write a Children’s Book in 12 Steps, BookFox',
+                                    url: 'https://thejohnfox.com/2019/02/how-to-write-a-childrens-book/'
+                                },
+                                {
+                                    text: 'How to Create a Graphic Novel, Neil Gaiman',
+                                    url: 'https://www.masterclass.com/articles/how-to-create-a-graphic-novel'
+                                },
+                                {
+                                    text: 'How to Create a Comic Book, Neil Gaiman',
+                                    url: 'https://www.masterclass.com/articles/how-to-create-a-comic-book-step-by-step-guide-for-making-your-own-comics'
+                                },
+                                {
+                                    text: 'How to Make a Storyboard for Film, Jodie Foster',
+                                    url: 'https://www.masterclass.com/articles/how-to-make-a-storyboard-for-a-film'
+                                }
+                            ]
+                        },
+                        {
+                            category: 'Books',
+                            sources: [
+                                {
+                                    text: 'Prepare to Board! Nancy Beiman',
+                                    url: 'https://www.amazon.com/dp/1138070904'
+                                }
+                            ]
+                        }
+                    ],
+                    challenges: [
+                        {
+                            name: 'Write 5 comic strips, or...',
+                            sub: [
+                                { text: 'At least 4 cells each' }
+                            ]
+                        },
+                        {
+                            name: 'Write a simple storyboard, or...',
+                            sub: [
+                                { text: 'At least 12 cells' }
+                            ]
+                        },
+                        {
+                            name: 'Write a simple picture book',
+                            sub: [
+                                { text: 'At least 15 pages' }
+                            ]
+                        }
+                    ],
+                    notes: 'Learn how to organize pictures in sequence with the narrative to emphasize what may otherwise be hard to put into words. This unit focuses primarily on using still images. however, narratives may also be told through music, cinema, plays and other mediums.'
                 },
                 {
                     title: 'Screenplays',
-                    brief: { name: '' },
+                    brief: {
+                        name: {
+                            text: 'Writing Scripts and Screenplays',
+                            url: '/StorytellingLessons/Screenplays'
+                        }
+                    },
                     references: [
                         {
-                            category: '',
+                            category: 'YouTube',
                             sources: [
-                                { text: '' }
+                                {
+                                    text: 'How to write a movie script screenplay using Final Draft, Jason Sherman',
+                                    url: 'https://youtu.be/RfpNqgSfpDQ'
+                                }
+                            ]
+                        },
+                        {
+                            category: 'Books',
+                            sources: [
+                                {
+                                    text: 'Save the Cat!: The Last Book on Screenwriting You\'ll Ever Need, Blake Snyder',
+                                    url: 'https://www.amazon.com/dp/B07BKR4N49'
+                                }
+                            ]
+                        },
+                        {
+                            category: 'Online',
+                            sources: [
+                                {
+                                    text: 'Formatting a Screenplay, StudioBinder',
+                                    url: 'https://www.studiobinder.com/blog/brilliant-script-screenplay-format/'
+                                },
+                                {
+                                    text: 'Glossary of Screenwriting Terms, FinalDraft',
+                                    url: 'https://kb.finaldraft.com/s/article/Glossary-of-Screenwriting-Terms'
+                                },
+                                {
+                                    text: 'A Glossary Of Screenwriting Terms & Filmmaking Definitions, Dan Bronzite',
+                                    url: 'https://www.movieoutline.com/articles/a-glossary-of-screenwriting-terms-and-filmmaking-definitions.html'
+                                }
                             ]
                         }
                     ],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Turn an animated feature film into a screenplay, or...',
                             sub: [
-                                { text: '' }
+                                { text: 'At least 15 pages' }
                             ]
-                        }
-                    ],
-                    notes: ''
-                },
-                {
-                    title: 'Classic & Light Novels',
-                    brief: { name: '' },
-                    references: [
+                        },
                         {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                            name: 'Turn a short story or visual story into a screenplay'
                         }
                     ],
-                    challenges: [
-                        {
-                            name: '',
-                            sub: [
-                                { text: '' }
-                            ]
-                        }
-                    ],
-                    notes: ''
+                    notes: 'A screenplay, or script, is a written work by screenwriters for a film, play, or video game. Screenplays can be original works or adaptations from existing pieces of writing. Learn the jargon and formatting for writing screenplays.'
                 }
             ]
         },
