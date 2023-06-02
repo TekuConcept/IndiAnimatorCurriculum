@@ -834,88 +834,104 @@ export const storytellingData: CData = {
             focus: 'Observation before creation',
             units: [
                 {
-                    title: 'Movie 1',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    title: 'Study Unit 1',
+                    brief: {
+                        name: {
+                            text: 'Building Knowledge Through Observation',
+                            url: '/StorytellingLessons/Study'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Reverse Engineer a Story',
                             sub: [
-                                { text: '' }
+                                { text: 'Identify the characters, their traits, and arcs' },
+                                { text: 'Identify the various places and settings' },
+                                { text: 'Identify the Themes, Conflicts, Narration, and Plot' },
+                                { text: 'Determine the Genre' }
                             ]
+                        },
+                        {
+                            name: '(Optional) Create an Outline of the Story'
                         }
                     ],
-                    notes: ''
+                    notes: 'Select a favorite work, be it a movie, episode, short story, manga, etc., and watch or read it through. Use what you\'ve learned from writing theory to reverse engineer the work. Observe and reflect upon the author\'s (or director\'s) choice of words, imagery, storytelling techniques, and thought process.'
                 },
                 {
-                    title: 'Movie 2',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    title: 'Study Unit 2',
+                    brief: {
+                        name: {
+                            text: 'Building Knowledge Through Observation',
+                            url: '/StorytellingLessons/Study'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Reverse Engineer a Story',
                             sub: [
-                                { text: '' }
+                                { text: 'Identify the characters, their traits, and arcs' },
+                                { text: 'Identify the various places and settings' },
+                                { text: 'Identify the Themes, Conflicts, Narration, and Plot' },
+                                { text: 'Determine the Genre' }
                             ]
+                        },
+                        {
+                            name: '(Optional) Create an Outline of the Story'
                         }
                     ],
-                    notes: ''
+                    notes: 'Select a new work to study or continue the last piece. This unit is a dedicated opportunity to learn from fellow story writers and study how theory is put to practice. Find useful patterns, build a personal mental library of prose, and get into the intuitive thought process for creative writing.'
                 },
                 {
-                    title: 'Movie 3',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    title: 'Study Unit 3',
+                    brief: {
+                        name: {
+                            text: 'Building Knowledge Through Observation',
+                            url: '/StorytellingLessons/Study'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Reverse Engineer a Story',
                             sub: [
-                                { text: '' }
+                                { text: 'Identify the characters, their traits, and arcs' },
+                                { text: 'Identify the various places and settings' },
+                                { text: 'Identify the Themes, Conflicts, Narration, and Plot' },
+                                { text: 'Determine the Genre' }
                             ]
+                        },
+                        {
+                            name: '(Optional) Create an Outline of the Story'
                         }
                     ],
-                    notes: ''
+                    notes: 'Select a new work to study or continue the last piece. This unit is a dedicated opportunity to learn from fellow story writers and study how theory is put to practice. Find useful patterns, build a personal mental library of prose, and get into the intuitive thought process for creative writing.'
                 },
                 {
-                    title: 'Movie 4',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    title: 'Study Unit 4',
+                    brief: {
+                        name: {
+                            text: 'Building Knowledge Through Observation',
+                            url: '/StorytellingLessons/Study'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Reverse Engineer a Story',
                             sub: [
-                                { text: '' }
+                                { text: 'Identify the characters, their traits, and arcs' },
+                                { text: 'Identify the various places and settings' },
+                                { text: 'Identify the Themes, Conflicts, Narration, and Plot' },
+                                { text: 'Determine the Genre' }
                             ]
+                        },
+                        {
+                            name: '(Optional) Create an Outline of the Story'
                         }
                     ],
-                    notes: ''
+                    notes: 'Select a new work to study or continue the last piece. This unit is a dedicated opportunity to learn from fellow story writers and study how theory is put to practice. Find useful patterns, build a personal mental library of prose, and get into the intuitive thought process for creative writing.'
                 }
             ]
         },
@@ -1039,88 +1055,104 @@ export const storytellingData: CData = {
             focus: 'Deeper Observations',
             units: [
                 {
-                    title: 'Movie 1',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    title: 'Study Unit 1',
+                    brief: {
+                        name: {
+                            text: 'Building Knowledge Through Observation',
+                            url: '/StorytellingLessons/Study'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Reverse Engineer a Story',
                             sub: [
-                                { text: '' }
+                                { text: 'Identify the characters, their traits, and arcs' },
+                                { text: 'Identify the various places and settings' },
+                                { text: 'Identify the Themes, Conflicts, Narration, and Plot' },
+                                { text: 'Determine the Genre' }
                             ]
+                        },
+                        {
+                            name: '(Optional) Create an Outline of the Story'
                         }
                     ],
-                    notes: ''
+                    notes: 'Like the last study term, this term also focuses on studing existing works. This time use the experience gained from the creative writing workshops to perform a deeper study and analysis. Aim for a more concrete understanding of creative writing as a skill.'
                 },
                 {
-                    title: 'Movie 2',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    title: 'Study Unit 2',
+                    brief: {
+                        name: {
+                            text: 'Building Knowledge Through Observation',
+                            url: '/StorytellingLessons/Study'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Reverse Engineer a Story',
                             sub: [
-                                { text: '' }
+                                { text: 'Identify the characters, their traits, and arcs' },
+                                { text: 'Identify the various places and settings' },
+                                { text: 'Identify the Themes, Conflicts, Narration, and Plot' },
+                                { text: 'Determine the Genre' }
                             ]
+                        },
+                        {
+                            name: '(Optional) Create an Outline of the Story'
                         }
                     ],
-                    notes: ''
+                    notes: 'Select a new work to study or continue the last piece. This unit is a dedicated opportunity to learn from fellow story writers and study how theory is put to practice. Find useful patterns, build a personal mental library of prose, and get into the intuitive thought process for creative writing.'
                 },
                 {
-                    title: 'Movie 3',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    title: 'Study Unit 3',
+                    brief: {
+                        name: {
+                            text: 'Building Knowledge Through Observation',
+                            url: '/StorytellingLessons/Study'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Reverse Engineer a Story',
                             sub: [
-                                { text: '' }
+                                { text: 'Identify the characters, their traits, and arcs' },
+                                { text: 'Identify the various places and settings' },
+                                { text: 'Identify the Themes, Conflicts, Narration, and Plot' },
+                                { text: 'Determine the Genre' }
                             ]
+                        },
+                        {
+                            name: '(Optional) Create an Outline of the Story'
                         }
                     ],
-                    notes: ''
+                    notes: 'Select a new work to study or continue the last piece. This unit is a dedicated opportunity to learn from fellow story writers and study how theory is put to practice. Find useful patterns, build a personal mental library of prose, and get into the intuitive thought process for creative writing.'
                 },
                 {
-                    title: 'Movie 4',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    title: 'Study Unit 4',
+                    brief: {
+                        name: {
+                            text: 'Building Knowledge Through Observation',
+                            url: '/StorytellingLessons/Study'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Reverse Engineer a Story',
                             sub: [
-                                { text: '' }
+                                { text: 'Identify the characters, their traits, and arcs' },
+                                { text: 'Identify the various places and settings' },
+                                { text: 'Identify the Themes, Conflicts, Narration, and Plot' },
+                                { text: 'Determine the Genre' }
                             ]
+                        },
+                        {
+                            name: '(Optional) Create an Outline of the Story'
                         }
                     ],
-                    notes: ''
+                    notes: 'Select a new work to study or continue the last piece. This unit is a dedicated opportunity to learn from fellow story writers and study how theory is put to practice. Find useful patterns, build a personal mental library of prose, and get into the intuitive thought process for creative writing.'
                 }
             ]
         },
