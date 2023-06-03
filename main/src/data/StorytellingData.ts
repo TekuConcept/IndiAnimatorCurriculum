@@ -952,90 +952,95 @@ export const storytellingData: CData = {
                 {
                     title: 'Workshop I',
                     subtitle: 'Planning',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    brief: {
+                        name: {
+                            text: 'Experience from Knowledge',
+                            url: '/StorytellingLessons/Practice'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Create a Story Portfolio',
                             sub: [
-                                { text: '' }
+                                { text: 'Character Profiles' },
+                                { text: 'Maps of Lands and Places' },
+                                { text: 'Story characteristics (genre, plot, themes, conflicts)' }
                             ]
                         }
                     ],
-                    notes: ''
+                    notes: 'Let\'s write a novelette (7K to 20K words)! Use this time to plan out your story. Define your characters, stage your places and settings, and determine the story plot and structure. Consider all writing theory units.'
                 },
                 {
                     title: 'Workshop II',
                     subtitle: 'Brainstorming',
-                    brief: { name: '' },
+                    brief: {
+                        name: {
+                            text: 'Experience from Knowledge',
+                            url: '/StorytellingLessons/Practice'
+                        }
+                    },
                     references: [
                         {
-                            category: '',
+                            category: 'Online',
                             sources: [
-                                { text: '' }
+                                {
+                                    text: 'Brainstorming, University of North Carolina',
+                                    url: 'https://writingcenter.unc.edu/tips-and-tools/brainstorming/'
+                                },
+                                {
+                                    text: '7 Brainstorming Techniques for Writers, Kathy Widenhouse',
+                                    url: 'https://www.nonprofitcopywriter.com/brainstorming-techniques.html'
+                                }
                             ]
                         }
                     ],
                     challenges: [
                         {
-                            name: '',
-                            sub: [
-                                { text: '' }
-                            ]
+                            name: 'Create a beat sheet of events'
+                        },
+                        {
+                            name: 'Create a story outline'
                         }
                     ],
-                    notes: ''
+                    notes: 'Start brainstorming conflicts and events to drive the plot forward. Generate at least 10 variations for each idea. Creativity is strongest when the creator is constrained. Brainstorming may be an iterative process - brainstorm, write, brainstorm, write. When you\'re ready, start writing!'
                 },
                 {
                     title: 'Workshop III',
                     subtitle: 'Writing',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    brief: {
+                        name: {
+                            text: 'Experience from Knowledge',
+                            url: '/StorytellingLessons/Practice'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
-                            sub: [
-                                { text: '' }
-                            ]
+                            name: 'Write 3500 or more words'
                         }
                     ],
-                    notes: ''
+                    notes: 'Write, write, write! Let the creativity flow. Experience your world. Put yourself in your character\'s shoes. Watch as events unfold. Then describe the experience in rich detail - all that is most relevant. Remember to "show, not tell."'
                 },
                 {
                     title: 'Workshop IV',
                     subtitle: 'Finishing Up',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    brief: {
+                        name: {
+                            text: 'Experience from Knowledge',
+                            url: '/StorytellingLessons/Practice'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
-                            sub: [
-                                { text: '' }
-                            ]
+                            name: 'Write 3500 or more words'
+                        },
+                        {
+                            name: 'Finish the novelette'
                         }
                     ],
-                    notes: ''
+                    notes: 'Wrap up things before the end of this unit. Be mindful of time investment. A short story will turn into an epic novel when there is much to explore and lots of exciting events to experience. For now, the goal is creating a finished piece, which you may build upon or refine later.'
                 }
             ]
         },
@@ -1173,90 +1178,95 @@ export const storytellingData: CData = {
                 {
                     title: 'Workshop I',
                     subtitle: 'Planning',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    brief: {
+                        name: {
+                            text: 'Experience from Knowledge',
+                            url: '/StorytellingLessons/Practice'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Create a Story Portfolio',
                             sub: [
-                                { text: '' }
+                                { text: 'Character Profiles' },
+                                { text: 'Maps of Lands and Places' },
+                                { text: 'Story characteristics (genre, plot, themes, conflicts)' }
                             ]
                         }
                     ],
-                    notes: ''
+                    notes: 'Let\'s write another novelette (7K to 20K words)! Like the last story writing workshop, use this time to plan out your story. Use what you\'ve learned from your studies and your past writing exercise to further hone your skills.'
                 },
                 {
                     title: 'Workshop II',
                     subtitle: 'Brainstorming',
-                    brief: { name: '' },
+                    brief: {
+                        name: {
+                            text: 'Experience from Knowledge',
+                            url: '/StorytellingLessons/Practice'
+                        }
+                    },
                     references: [
                         {
-                            category: '',
+                            category: 'Online',
                             sources: [
-                                { text: '' }
+                                {
+                                    text: 'Brainstorming, University of North Carolina',
+                                    url: 'https://writingcenter.unc.edu/tips-and-tools/brainstorming/'
+                                },
+                                {
+                                    text: '7 Brainstorming Techniques for Writers, Kathy Widenhouse',
+                                    url: 'https://www.nonprofitcopywriter.com/brainstorming-techniques.html'
+                                }
                             ]
                         }
                     ],
                     challenges: [
                         {
-                            name: '',
-                            sub: [
-                                { text: '' }
-                            ]
+                            name: 'Create a beat sheet of events'
+                        },
+                        {
+                            name: 'Create a story outline'
                         }
                     ],
-                    notes: ''
+                    notes: 'Start brainstorming conflicts and events to drive the plot forward. Generate at least 10 variations for each idea. Creativity is strongest when the creator is constrained. Brainstorming may be an iterative process - brainstorm, write, brainstorm, write. When you\'re ready, start writing!'
                 },
                 {
                     title: 'Workshop III',
                     subtitle: 'Writing',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    brief: {
+                        name: {
+                            text: 'Experience from Knowledge',
+                            url: '/StorytellingLessons/Practice'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
-                            sub: [
-                                { text: '' }
-                            ]
+                            name: 'Write 3500 or more words'
                         }
                     ],
-                    notes: ''
+                    notes: 'Write, write, write! Let the creativity flow. Experience your world. Put yourself in your character\'s shoes. Watch as events unfold. Then describe the experience in rich detail - all that is most relevant. Remember to "show, not tell."'
                 },
                 {
                     title: 'Workshop IV',
                     subtitle: 'Finishing Up',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    brief: {
+                        name: {
+                            text: 'Experience from Knowledge',
+                            url: '/StorytellingLessons/Practice'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
-                            sub: [
-                                { text: '' }
-                            ]
+                            name: 'Write 3500 or more words'
+                        },
+                        {
+                            name: 'Finish the novelette'
                         }
                     ],
-                    notes: ''
+                    notes: 'Wrap up things before the end of this unit. Be mindful of time investment. A short story will turn into an epic novel when there is much to explore and lots of exciting events to experience. For now, the goal is creating a finished piece, which you may build upon or refine later.'
                 }
             ]
         },
@@ -1277,90 +1287,101 @@ export const storytellingData: CData = {
                 {
                     title: 'Workshop I',
                     subtitle: 'Planning',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    brief: {
+                        name: {
+                            text: 'Experience from Knowledge',
+                            url: '/StorytellingLessons/Practice'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
+                            name: 'Create a Story Portfolio',
                             sub: [
-                                { text: '' }
+                                { text: 'Character Profiles' },
+                                { text: 'Maps of Lands and Places' },
+                                { text: 'Story characteristics (genre, plot, themes, conflicts)' }
                             ]
                         }
                     ],
-                    notes: ''
+                    notes: 'Write a new original story! The goal now is to get you comfortable with the writing process. Try something new such as writing a screenplay or graphic novel. Mix things up a bit: explore different combinations of genres, themes, conflicts, etc.'
                 },
                 {
                     title: 'Workshop II',
                     subtitle: 'Brainstorming',
-                    brief: { name: '' },
+                    brief: {
+                        name: {
+                            text: 'Experience from Knowledge',
+                            url: '/StorytellingLessons/Practice'
+                        }
+                    },
                     references: [
                         {
-                            category: '',
+                            category: 'Online',
                             sources: [
-                                { text: '' }
+                                {
+                                    text: 'Brainstorming, University of North Carolina',
+                                    url: 'https://writingcenter.unc.edu/tips-and-tools/brainstorming/'
+                                },
+                                {
+                                    text: '7 Brainstorming Techniques for Writers, Kathy Widenhouse',
+                                    url: 'https://www.nonprofitcopywriter.com/brainstorming-techniques.html'
+                                }
                             ]
                         }
                     ],
                     challenges: [
                         {
-                            name: '',
-                            sub: [
-                                { text: '' }
-                            ]
+                            name: 'Create a beat sheet of events'
+                        },
+                        {
+                            name: 'Create a story outline'
                         }
                     ],
-                    notes: ''
+                    notes: 'Start brainstorming conflicts and events to drive the plot forward. Generate at least 10 variations for each idea. Creativity is strongest when the creator is constrained. Brainstorming may be an iterative process - brainstorm, write, brainstorm, write. When you\'re ready, start writing!'
                 },
                 {
                     title: 'Workshop III',
                     subtitle: 'Writing',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    brief: {
+                        name: {
+                            text: 'Experience from Knowledge',
+                            url: '/StorytellingLessons/Practice'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
-                            sub: [
-                                { text: '' }
-                            ]
+                            name: 'Write 3500 or more words, or...'
+                        },
+                        {
+                            name: 'Generate 50 or more pages'
                         }
                     ],
-                    notes: ''
+                    notes: 'Write, write, write! Let the creativity flow. Experience your world. Put yourself in your character\'s shoes. Watch as events unfold. Then describe the experience in rich detail - all that is most relevant. Remember to "show, not tell."'
                 },
                 {
                     title: 'Workshop IV',
                     subtitle: 'Finishing Up',
-                    brief: { name: '' },
-                    references: [
-                        {
-                            category: '',
-                            sources: [
-                                { text: '' }
-                            ]
+                    brief: {
+                        name: {
+                            text: 'Experience from Knowledge',
+                            url: '/StorytellingLessons/Practice'
                         }
-                    ],
+                    },
+                    references: [],
                     challenges: [
                         {
-                            name: '',
-                            sub: [
-                                { text: '' }
-                            ]
+                            name: 'Write 3500 or more words, or...'
+                        },
+                        {
+                            name: 'Generate 50 or more pages'
+                        },
+                        {
+                            name: 'Finish the story'
                         }
                     ],
-                    notes: ''
+                    notes: 'Wrap up things before the end of this unit. Be mindful of time investment. A short story will turn into an epic novel when there is much to explore and lots of exciting events to experience. For now, the goal is creating a finished piece, which you may build upon or refine later.'
                 }
             ]
         }

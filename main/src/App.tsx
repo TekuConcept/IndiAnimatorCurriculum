@@ -35,6 +35,7 @@ import LongStories from './pages/StorytellingLessons/LongStories'
 import VisualStories from './pages/StorytellingLessons/VisualStories'
 import Screenplays from './pages/StorytellingLessons/Screenplays'
 import Study from './pages/StorytellingLessons/Study'
+import Practice from './pages/StorytellingLessons/Practice'
 
 export default function App() {
     return <BrowserRouter>
@@ -66,6 +67,7 @@ export default function App() {
                 <Route path="VisualStories" element={<VisualStories />} />
                 <Route path="Screenplays" element={<Screenplays />} />
                 <Route path="Study" element={<Study />} />
+                <Route path="Practice" element={<Practice />} />
             </Route>
         </Routes>
     </BrowserRouter>
